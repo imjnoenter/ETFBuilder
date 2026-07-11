@@ -1,0 +1,100 @@
+/* WeightSlider — range input for position weight */
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  flex: 1;
+  min-width: 0;
+}
+
+.slider {
+  flex: 1;
+  min-width: 60px;
+  height: 4px;
+  -webkit-appearance: none;
+  appearance: none;
+  background: var(--color-border);
+  border-radius: var(--radius-full);
+  outline: none;
+  cursor: pointer;
+  transition: background var(--duration-fast) ease;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  border: 2px solid var(--color-bg);
+  box-shadow: 0 1px 3px var(--color-slider-shadow);
+  cursor: pointer;
+  transition: box-shadow var(--duration-fast) ease,
+              transform var(--duration-fast) ease;
+}
+
+.slider::-webkit-slider-thumb:hover {
+  box-shadow: var(--shadow-hover);
+  transform: scale(1.15);
+}
+
+.slider::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  border: 2px solid var(--color-bg);
+  box-shadow: 0 1px 3px var(--color-slider-shadow);
+  cursor: pointer;
+}
+
+.slider:focus-visible {
+  outline: none;
+}
+
+.slider:focus-visible::-webkit-slider-thumb {
+  box-shadow: var(--shadow-focus);
+}
+
+.valueWrap {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  min-width: 3.5rem;
+  justify-content: flex-end;
+}
+
+.valueInput {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--color-ink);
+  text-align: right;
+  width: 2.25rem;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  padding: 1px 3px;
+  outline: none;
+  transition: border-color var(--duration-fast) ease, background var(--duration-fast) ease;
+}
+
+.valueInput:hover {
+  border-color: var(--color-border);
+}
+
+.valueInput:focus {
+  border-color: var(--color-primary);
+  background: var(--color-surface);
+}
+
+.percentSign {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--color-ink);
+}

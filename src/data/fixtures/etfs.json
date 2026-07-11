@@ -1,0 +1,7570 @@
+{
+  "_synthetic": false,
+  "etfs": [
+    {
+      "ticker": "SPY",
+      "name": "State Street SPDR S&P 500 ETF Trust",
+      "issuer": "State Street Investment Management",
+      "assetClass": "Equity",
+      "risk": 3,
+      "riskLabel": "Moderate",
+      "expenseRatio": 0.000945,
+      "aum": 783796404224,
+      "inceptionDate": "1993-01-22",
+      "dividendYield": 0.0098,
+      "stdDev": 0.1561,
+      "beta": 1,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA Corp",
+          "weight": 7.89
+        },
+        {
+          "symbol": "AAPL",
+          "name": "Apple Inc",
+          "weight": 7.05
+        },
+        {
+          "symbol": "MSFT",
+          "name": "Microsoft Corp",
+          "weight": 5.14
+        },
+        {
+          "symbol": "AMZN",
+          "name": "Amazon.com Inc",
+          "weight": 4.07
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Alphabet Inc Class A",
+          "weight": 3.41
+        },
+        {
+          "symbol": "AVGO",
+          "name": "Broadcom Inc",
+          "weight": 3.26
+        },
+        {
+          "symbol": "GOOG",
+          "name": "Alphabet Inc Class C",
+          "weight": 2.71
+        },
+        {
+          "symbol": "META",
+          "name": "Meta Platforms Inc Class A",
+          "weight": 2.13
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla Inc",
+          "weight": 1.88
+        },
+        {
+          "symbol": "MU",
+          "name": "Micron Technology Inc",
+          "weight": 1.68
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 1.81
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 9.89
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 1.67
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 4.5
+        },
+        {
+          "sector": "Technology",
+          "weight": 39.05
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 10.64
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 11.07
+        },
+        {
+          "sector": "Utilities",
+          "weight": 2.11
+        },
+        {
+          "sector": "Industrials",
+          "weight": 7.82
+        },
+        {
+          "sector": "Energy",
+          "weight": 3.13
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 8.3
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.0525146,
+        "3M": 0.1049599,
+        "1Y": 0.2964395,
+        "3Y": 0.2346493,
+        "5Y": 0.1404455
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "State Street SPDR S&P 500 ETF Trust (SPY) is an equity ETF."
+    },
+    {
+      "ticker": "VOO",
+      "name": "Vanguard S&P 500 ETF",
+      "issuer": "Vanguard",
+      "assetClass": "Equity",
+      "risk": 3,
+      "riskLabel": "Moderate",
+      "expenseRatio": 0.00029999999,
+      "aum": 1701513003008,
+      "inceptionDate": "2010-09-07",
+      "dividendYield": 0.010299999,
+      "stdDev": 0.156,
+      "beta": 1,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA Corp",
+          "weight": 7.89
+        },
+        {
+          "symbol": "AAPL",
+          "name": "Apple Inc",
+          "weight": 7.04
+        },
+        {
+          "symbol": "MSFT",
+          "name": "Microsoft Corp",
+          "weight": 5.14
+        },
+        {
+          "symbol": "AMZN",
+          "name": "Amazon.com Inc",
+          "weight": 4.06
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Alphabet Inc Class A",
+          "weight": 3.4
+        },
+        {
+          "symbol": "AVGO",
+          "name": "Broadcom Inc",
+          "weight": 3.26
+        },
+        {
+          "symbol": "GOOG",
+          "name": "Alphabet Inc Class C",
+          "weight": 2.71
+        },
+        {
+          "symbol": "META",
+          "name": "Meta Platforms Inc Class A",
+          "weight": 2.13
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla Inc",
+          "weight": 1.88
+        },
+        {
+          "symbol": "MU",
+          "name": "Micron Technology Inc",
+          "weight": 1.68
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 1.81
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 9.91
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 1.68
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 4.51
+        },
+        {
+          "sector": "Technology",
+          "weight": 39.13
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 10.66
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 10.92
+        },
+        {
+          "sector": "Utilities",
+          "weight": 2.11
+        },
+        {
+          "sector": "Industrials",
+          "weight": 7.83
+        },
+        {
+          "sector": "Energy",
+          "weight": 3.14
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 8.32
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.0526045,
+        "3M": 0.105082795,
+        "1Y": 0.2973748,
+        "3Y": 0.2357058,
+        "5Y": 0.1410598
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "Vanguard S&P 500 ETF (VOO) is an equity ETF."
+    },
+    {
+      "ticker": "IVV",
+      "name": "iShares Core S&P 500 ETF",
+      "issuer": "iShares",
+      "assetClass": "Equity",
+      "risk": 3,
+      "riskLabel": "Moderate",
+      "expenseRatio": 0.00029999999,
+      "aum": 854916988928,
+      "inceptionDate": "2000-05-15",
+      "dividendYield": 0.0106,
+      "stdDev": 0.1564,
+      "beta": 1,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA Corp",
+          "weight": 7.88
+        },
+        {
+          "symbol": "AAPL",
+          "name": "Apple Inc",
+          "weight": 7.04
+        },
+        {
+          "symbol": "MSFT",
+          "name": "Microsoft Corp",
+          "weight": 5.14
+        },
+        {
+          "symbol": "AMZN",
+          "name": "Amazon.com Inc",
+          "weight": 4.06
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Alphabet Inc Class A",
+          "weight": 3.4
+        },
+        {
+          "symbol": "AVGO",
+          "name": "Broadcom Inc",
+          "weight": 3.25
+        },
+        {
+          "symbol": "GOOG",
+          "name": "Alphabet Inc Class C",
+          "weight": 2.7
+        },
+        {
+          "symbol": "META",
+          "name": "Meta Platforms Inc Class A",
+          "weight": 2.13
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla Inc",
+          "weight": 1.88
+        },
+        {
+          "symbol": "MU",
+          "name": "Micron Technology Inc",
+          "weight": 1.68
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 1.81
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 9.89
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 1.67
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 4.5
+        },
+        {
+          "sector": "Technology",
+          "weight": 39.05
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 10.64
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 11.07
+        },
+        {
+          "sector": "Utilities",
+          "weight": 2.11
+        },
+        {
+          "sector": "Industrials",
+          "weight": 7.82
+        },
+        {
+          "sector": "Energy",
+          "weight": 3.13
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 8.3
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.0526044,
+        "3M": 0.105079696,
+        "1Y": 0.2974834,
+        "3Y": 0.2357473,
+        "5Y": 0.1411582
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "iShares Core S&P 500 ETF (IVV) is an equity ETF."
+    },
+    {
+      "ticker": "VTI",
+      "name": "Vanguard Total Stock Market Index Fund ETF Shares",
+      "issuer": "Vanguard",
+      "assetClass": "Equity",
+      "risk": 4,
+      "riskLabel": "Moderately Aggressive",
+      "expenseRatio": 0.00029999999,
+      "aum": 2308925030400,
+      "inceptionDate": "2001-05-24",
+      "dividendYield": 0.0101,
+      "stdDev": 0.1604,
+      "beta": 1.03,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA Corp",
+          "weight": 6.7
+        },
+        {
+          "symbol": "AAPL",
+          "name": "Apple Inc",
+          "weight": 6.29
+        },
+        {
+          "symbol": "MSFT",
+          "name": "Microsoft Corp",
+          "weight": 4.59
+        },
+        {
+          "symbol": "AMZN",
+          "name": "Amazon.com Inc",
+          "weight": 3.59
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Alphabet Inc Class A",
+          "weight": 3.04
+        },
+        {
+          "symbol": "AVGO",
+          "name": "Broadcom Inc",
+          "weight": 2.91
+        },
+        {
+          "symbol": "GOOG",
+          "name": "Alphabet Inc Class C",
+          "weight": 2.39
+        },
+        {
+          "symbol": "META",
+          "name": "Meta Platforms Inc Class A",
+          "weight": 1.9
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla Inc",
+          "weight": 1.69
+        },
+        {
+          "symbol": "MU",
+          "name": "Micron Technology Inc",
+          "weight": 1.5
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 2.29
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 9.74
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 1.92
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 4.27
+        },
+        {
+          "sector": "Technology",
+          "weight": 36.95
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 9.81
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 11.26
+        },
+        {
+          "sector": "Utilities",
+          "weight": 2.11
+        },
+        {
+          "sector": "Industrials",
+          "weight": 9.36
+        },
+        {
+          "sector": "Energy",
+          "weight": 3.3
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 8.97
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.0515869,
+        "3M": 0.1028641,
+        "1Y": 0.29845288,
+        "3Y": 0.23251949,
+        "5Y": 0.128864
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "Vanguard Total Stock Market Index Fund ETF Shares (VTI) is an equity ETF."
+    },
+    {
+      "ticker": "QQQ",
+      "name": "Invesco QQQ Trust",
+      "issuer": "Invesco",
+      "assetClass": "Equity",
+      "risk": 4,
+      "riskLabel": "Moderately Aggressive",
+      "expenseRatio": 0.0018000001,
+      "aum": 493987528704,
+      "inceptionDate": "1999-03-10",
+      "dividendYield": 0.0038,
+      "stdDev": 0.1887,
+      "beta": 1.23,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA Corp",
+          "weight": 8.16
+        },
+        {
+          "symbol": "AAPL",
+          "name": "Apple Inc",
+          "weight": 7.28
+        },
+        {
+          "symbol": "MSFT",
+          "name": "Microsoft Corp",
+          "weight": 5.32
+        },
+        {
+          "symbol": "MU",
+          "name": "Micron Technology Inc",
+          "weight": 4.8
+        },
+        {
+          "symbol": "AMZN",
+          "name": "Amazon.com Inc",
+          "weight": 4.62
+        },
+        {
+          "symbol": "AMD",
+          "name": "Advanced Micro Devices Inc",
+          "weight": 3.69
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Alphabet Inc Class A",
+          "weight": 3.52
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla Inc",
+          "weight": 3.46
+        },
+        {
+          "symbol": "AVGO",
+          "name": "Broadcom Inc",
+          "weight": 3.37
+        },
+        {
+          "symbol": "GOOG",
+          "name": "Alphabet Inc Class C",
+          "weight": 3.25
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 11.43
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 1.01
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 6.44
+        },
+        {
+          "sector": "Technology",
+          "weight": 58.65
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 14.28
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 0.18
+        },
+        {
+          "sector": "Utilities",
+          "weight": 1.18
+        },
+        {
+          "sector": "Industrials",
+          "weight": 2.6
+        },
+        {
+          "sector": "Energy",
+          "weight": 0.52
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 3.7
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.10562179,
+        "3M": 0.21678591,
+        "1Y": 0.4278391,
+        "3Y": 0.293147,
+        "5Y": 0.1792324
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "Invesco QQQ Trust (QQQ) is an equity ETF."
+    },
+    {
+      "ticker": "ITOT",
+      "name": "iShares Core S&P Total U.S. Stock Market ETF",
+      "issuer": "iShares",
+      "assetClass": "Equity",
+      "risk": 4,
+      "riskLabel": "Moderately Aggressive",
+      "expenseRatio": 0.00029999999,
+      "aum": 93420265472,
+      "inceptionDate": "2004-01-20",
+      "dividendYield": 0.0098,
+      "stdDev": 0.1602,
+      "beta": 1.04,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA Corp",
+          "weight": 6.99
+        },
+        {
+          "symbol": "AAPL",
+          "name": "Apple Inc",
+          "weight": 6.25
+        },
+        {
+          "symbol": "MSFT",
+          "name": "Microsoft Corp",
+          "weight": 4.56
+        },
+        {
+          "symbol": "AMZN",
+          "name": "Amazon.com Inc",
+          "weight": 3.6
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Alphabet Inc Class A",
+          "weight": 3.02
+        },
+        {
+          "symbol": "AVGO",
+          "name": "Broadcom Inc",
+          "weight": 2.89
+        },
+        {
+          "symbol": "GOOG",
+          "name": "Alphabet Inc Class C",
+          "weight": 2.4
+        },
+        {
+          "symbol": "META",
+          "name": "Meta Platforms Inc Class A",
+          "weight": 1.89
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla Inc",
+          "weight": 1.67
+        },
+        {
+          "symbol": "MU",
+          "name": "Micron Technology Inc",
+          "weight": 1.49
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 2.25
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 9.81
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 1.96
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 4.27
+        },
+        {
+          "sector": "Technology",
+          "weight": 37.23
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 9.8
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 11.4
+        },
+        {
+          "sector": "Utilities",
+          "weight": 2.08
+        },
+        {
+          "sector": "Industrials",
+          "weight": 9.1
+        },
+        {
+          "sector": "Energy",
+          "weight": 3.28
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 8.81
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.0517381,
+        "3M": 0.104087,
+        "1Y": 0.2981959,
+        "3Y": 0.2326206,
+        "5Y": 0.1288562
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "iShares Core S&P Total U.S. Stock Market ETF (ITOT) is an equity ETF."
+    },
+    {
+      "ticker": "SPLG",
+      "name": "State Street SPDR Portfolio S&P 500 ETF",
+      "issuer": "State Street Investment Management",
+      "assetClass": "Equity",
+      "risk": 3,
+      "riskLabel": "Moderate",
+      "expenseRatio": 0.0002,
+      "aum": 97328324608,
+      "inceptionDate": "2005-11-08",
+      "dividendYield": 0.0113,
+      "stdDev": 0.1553,
+      "beta": 1,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA Corp",
+          "weight": 7.38
+        },
+        {
+          "symbol": "AAPL",
+          "name": "Apple Inc",
+          "weight": 7.07
+        },
+        {
+          "symbol": "MSFT",
+          "name": "Microsoft Corp",
+          "weight": 6.25
+        },
+        {
+          "symbol": "AMZN",
+          "name": "Amazon.com Inc",
+          "weight": 3.87
+        },
+        {
+          "symbol": "AVGO",
+          "name": "Broadcom Inc",
+          "weight": 3.24
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Alphabet Inc Class A",
+          "weight": 3.18
+        },
+        {
+          "symbol": "GOOG",
+          "name": "Alphabet Inc Class C",
+          "weight": 2.55
+        },
+        {
+          "symbol": "META",
+          "name": "Meta Platforms Inc Class A",
+          "weight": 2.4
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla Inc",
+          "weight": 2.06
+        },
+        {
+          "symbol": "BRK-B",
+          "name": "Berkshire Hathaway Inc Class B",
+          "weight": 1.61
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 1.87
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 10.4
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 1.5
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 4.85
+        },
+        {
+          "sector": "Technology",
+          "weight": 35.29
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 10.98
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 12.79
+        },
+        {
+          "sector": "Utilities",
+          "weight": 2.37
+        },
+        {
+          "sector": "Industrials",
+          "weight": 7.34
+        },
+        {
+          "sector": "Energy",
+          "weight": 2.83
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 9.77
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.0024312,
+        "3M": 0.06327,
+        "1Y": 0.1498114,
+        "3Y": 0.20536341,
+        "5Y": 0.1524858
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "State Street SPDR Portfolio S&P 500 ETF (SPLG) is an equity ETF."
+    },
+    {
+      "ticker": "SCHB",
+      "name": "Schwab U.S. Broad Market ETF",
+      "issuer": "Schwab ETFs",
+      "assetClass": "Equity",
+      "risk": 4,
+      "riskLabel": "Moderately Aggressive",
+      "expenseRatio": 0.00029999999,
+      "aum": 43309670400,
+      "inceptionDate": "2009-11-03",
+      "dividendYield": 0.0101,
+      "stdDev": 0.1613,
+      "beta": 1.04,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA Corp",
+          "weight": 7.01
+        },
+        {
+          "symbol": "AAPL",
+          "name": "Apple Inc",
+          "weight": 6.26
+        },
+        {
+          "symbol": "MSFT",
+          "name": "Microsoft Corp",
+          "weight": 4.57
+        },
+        {
+          "symbol": "AMZN",
+          "name": "Amazon.com Inc",
+          "weight": 3.61
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Alphabet Inc Class A",
+          "weight": 3.03
+        },
+        {
+          "symbol": "AVGO",
+          "name": "Broadcom Inc",
+          "weight": 2.9
+        },
+        {
+          "symbol": "GOOG",
+          "name": "Alphabet Inc Class C",
+          "weight": 2.41
+        },
+        {
+          "symbol": "META",
+          "name": "Meta Platforms Inc Class A",
+          "weight": 1.89
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla Inc",
+          "weight": 1.68
+        },
+        {
+          "symbol": "MU",
+          "name": "Micron Technology Inc",
+          "weight": 1.49
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 2.25
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 9.82
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 1.94
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 4.28
+        },
+        {
+          "sector": "Technology",
+          "weight": 37.28
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 9.82
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 11.38
+        },
+        {
+          "sector": "Utilities",
+          "weight": 2.08
+        },
+        {
+          "sector": "Industrials",
+          "weight": 9.1
+        },
+        {
+          "sector": "Energy",
+          "weight": 3.28
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 8.77
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.0515687,
+        "3M": 0.103796504,
+        "1Y": 0.29745528,
+        "3Y": 0.23271,
+        "5Y": 0.1293781
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "Schwab U.S. Broad Market ETF (SCHB) is an equity ETF."
+    },
+    {
+      "ticker": "DIA",
+      "name": "State Street SPDR Dow Jones Industrial Average ETF Trust",
+      "issuer": "State Street Investment Management",
+      "assetClass": "Equity",
+      "risk": 3,
+      "riskLabel": "Moderate",
+      "expenseRatio": 0.0016,
+      "aum": 44786040832,
+      "inceptionDate": "1998-01-13",
+      "dividendYield": 0.0137,
+      "stdDev": 0.1525,
+      "beta": 0.85,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "GS",
+          "name": "The Goldman Sachs Group Inc",
+          "weight": 12.36
+        },
+        {
+          "symbol": "CAT",
+          "name": "Caterpillar Inc",
+          "weight": 10.56
+        },
+        {
+          "symbol": "MSFT",
+          "name": "Microsoft Corp",
+          "weight": 5.43
+        },
+        {
+          "symbol": "UNH",
+          "name": "UnitedHealth Group Inc",
+          "weight": 4.58
+        },
+        {
+          "symbol": "AMGN",
+          "name": "Amgen Inc",
+          "weight": 4.06
+        },
+        {
+          "symbol": "V",
+          "name": "Visa Inc Class A",
+          "weight": 3.93
+        },
+        {
+          "symbol": "HD",
+          "name": "The Home Depot Inc",
+          "weight": 3.82
+        },
+        {
+          "symbol": "AXP",
+          "name": "American Express Co",
+          "weight": 3.81
+        },
+        {
+          "symbol": "AAPL",
+          "name": "Apple Inc",
+          "weight": 3.76
+        },
+        {
+          "symbol": "SHW",
+          "name": "Sherwin-Williams Co",
+          "weight": 3.66
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 11.02
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 3.67
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 4.08
+        },
+        {
+          "sector": "Technology",
+          "weight": 19.09
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 1.81
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 27.26
+        },
+        {
+          "sector": "Industrials",
+          "weight": 18.07
+        },
+        {
+          "sector": "Energy",
+          "weight": 2.2
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 12.8
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.0292187,
+        "3M": 0.046082903,
+        "1Y": 0.2251976,
+        "3Y": 0.1764909,
+        "5Y": 0.1001937
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "State Street SPDR Dow Jones Industrial Average ETF Trust (DIA) is an equity ETF."
+    },
+    {
+      "ticker": "RSP",
+      "name": "Invesco S&P 500 Equal Weight ETF",
+      "issuer": "Invesco",
+      "assetClass": "Equity",
+      "risk": 4,
+      "riskLabel": "Moderately Aggressive",
+      "expenseRatio": 0.002,
+      "aum": 89116966912,
+      "inceptionDate": "2003-04-24",
+      "dividendYield": 0.0149,
+      "stdDev": 0.1696,
+      "beta": 0.89,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "DELL",
+          "name": "Dell Technologies Inc Ordinary Shares - Class C",
+          "weight": 0.54
+        },
+        {
+          "symbol": "SNDK",
+          "name": "SanDisk Corp Ordinary Shares",
+          "weight": 0.49
+        },
+        {
+          "symbol": "AMD",
+          "name": "Advanced Micro Devices Inc",
+          "weight": 0.47
+        },
+        {
+          "symbol": "INTC",
+          "name": "Intel Corp",
+          "weight": 0.45
+        },
+        {
+          "symbol": "MU",
+          "name": "Micron Technology Inc",
+          "weight": 0.44
+        },
+        {
+          "symbol": "STX",
+          "name": "Seagate Technology Holdings PLC",
+          "weight": 0.43
+        },
+        {
+          "symbol": "ON",
+          "name": "ON Semiconductor Corp",
+          "weight": 0.38
+        },
+        {
+          "symbol": "HPE",
+          "name": "Hewlett Packard Enterprise Co",
+          "weight": 0.38
+        },
+        {
+          "symbol": "WDC",
+          "name": "Western Digital Corp",
+          "weight": 0.37
+        },
+        {
+          "symbol": "DDOG",
+          "name": "Datadog Inc Class A",
+          "weight": 0.36
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 6.1
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 10.04
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 3.93
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 6.35
+        },
+        {
+          "sector": "Technology",
+          "weight": 20.89
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 3.91
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 13.93
+        },
+        {
+          "sector": "Utilities",
+          "weight": 5.65
+        },
+        {
+          "sector": "Industrials",
+          "weight": 14.16
+        },
+        {
+          "sector": "Energy",
+          "weight": 3.95
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 11.08
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.0266083,
+        "3M": 0.022506,
+        "1Y": 0.202124,
+        "3Y": 0.1625062,
+        "5Y": 0.0845039
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "Invesco S&P 500 Equal Weight ETF (RSP) is an equity ETF."
+    },
+    {
+      "ticker": "IWM",
+      "name": "iShares Russell 2000 ETF",
+      "issuer": "iShares",
+      "assetClass": "Equity",
+      "risk": 4,
+      "riskLabel": "Moderately Aggressive",
+      "expenseRatio": 0.0019,
+      "aum": 80933363712,
+      "inceptionDate": "2000-05-22",
+      "dividendYield": 0.0087,
+      "stdDev": 0.211,
+      "beta": 1.29,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "BE",
+          "name": "Bloom Energy Corp Class A",
+          "weight": 1.82
+        },
+        {
+          "symbol": "CRDO",
+          "name": "Credo Technology Group Holding Ltd",
+          "weight": 1.12
+        },
+        {
+          "symbol": "STRL",
+          "name": "Sterling Infrastructure Inc",
+          "weight": 0.75
+        },
+        {
+          "symbol": "IONQ",
+          "name": "IonQ Inc Class A",
+          "weight": 0.73
+        },
+        {
+          "symbol": "FN",
+          "name": "Fabrinet",
+          "weight": 0.69
+        },
+        {
+          "symbol": "NXT",
+          "name": "Nextpower Inc Class A",
+          "weight": 0.67
+        },
+        {
+          "symbol": "CDE",
+          "name": "Coeur Mining Inc",
+          "weight": 0.58
+        },
+        {
+          "symbol": "TTMI",
+          "name": "TTM Technologies Inc",
+          "weight": 0.52
+        },
+        {
+          "symbol": "ECHO",
+          "name": "EchoStar Corp Class A",
+          "weight": 0.51
+        },
+        {
+          "symbol": "GH",
+          "name": "Guardant Health Inc",
+          "weight": 0.47
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 5.88
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 7.93
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 4.68
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 2.22
+        },
+        {
+          "sector": "Technology",
+          "weight": 19.19
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 2.45
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 15.35
+        },
+        {
+          "sector": "Utilities",
+          "weight": 2.74
+        },
+        {
+          "sector": "Industrials",
+          "weight": 17.85
+        },
+        {
+          "sector": "Energy",
+          "weight": 5.38
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 16.34
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.0436908,
+        "3M": 0.112048104,
+        "1Y": 0.4288413,
+        "3Y": 0.2008507,
+        "5Y": 0.0648718
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "iShares Russell 2000 ETF (IWM) is an equity ETF."
+    },
+    {
+      "ticker": "IWB",
+      "name": "iShares Russell 1000 ETF",
+      "issuer": "iShares",
+      "assetClass": "Equity",
+      "risk": 3,
+      "riskLabel": "Moderate",
+      "expenseRatio": 0.0015,
+      "aum": 48871038976,
+      "inceptionDate": "2000-05-15",
+      "dividendYield": 0.0091,
+      "stdDev": 0.1582,
+      "beta": 1.01,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA Corp",
+          "weight": 7.14
+        },
+        {
+          "symbol": "AAPL",
+          "name": "Apple Inc",
+          "weight": 6.5
+        },
+        {
+          "symbol": "MSFT",
+          "name": "Microsoft Corp",
+          "weight": 4.83
+        },
+        {
+          "symbol": "AMZN",
+          "name": "Amazon.com Inc",
+          "weight": 3.75
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Alphabet Inc Class A",
+          "weight": 3.2
+        },
+        {
+          "symbol": "AVGO",
+          "name": "Broadcom Inc",
+          "weight": 2.98
+        },
+        {
+          "symbol": "GOOG",
+          "name": "Alphabet Inc Class C",
+          "weight": 2.58
+        },
+        {
+          "symbol": "META",
+          "name": "Meta Platforms Inc Class A",
+          "weight": 2
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla Inc",
+          "weight": 1.78
+        },
+        {
+          "symbol": "MU",
+          "name": "Micron Technology Inc",
+          "weight": 1.57
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 2.1
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 10
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 1.92
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 4.42
+        },
+        {
+          "sector": "Technology",
+          "weight": 37.33
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 10.37
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 11.34
+        },
+        {
+          "sector": "Utilities",
+          "weight": 2.08
+        },
+        {
+          "sector": "Industrials",
+          "weight": 8.69
+        },
+        {
+          "sector": "Energy",
+          "weight": 3.24
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 8.51
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.0508606,
+        "3M": 0.09924091,
+        "1Y": 0.2866261,
+        "3Y": 0.2316415,
+        "5Y": 0.1317698
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "iShares Russell 1000 ETF (IWB) is an equity ETF."
+    },
+    {
+      "ticker": "VUG",
+      "name": "Vanguard Growth Index Fund ETF Shares",
+      "issuer": "Vanguard",
+      "assetClass": "Equity",
+      "risk": 4,
+      "riskLabel": "Moderately Aggressive",
+      "expenseRatio": 0.00029999999,
+      "aum": 393821978624,
+      "inceptionDate": "2004-01-26",
+      "dividendYield": 0.0037,
+      "stdDev": 0.1863,
+      "beta": 1.24,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA Corp",
+          "weight": 13.1
+        },
+        {
+          "symbol": "AAPL",
+          "name": "Apple Inc",
+          "weight": 12.31
+        },
+        {
+          "symbol": "MSFT",
+          "name": "Microsoft Corp",
+          "weight": 8.99
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Alphabet Inc Class A",
+          "weight": 5.95
+        },
+        {
+          "symbol": "AVGO",
+          "name": "Broadcom Inc",
+          "weight": 5.16
+        },
+        {
+          "symbol": "AMZN",
+          "name": "Amazon.com Inc",
+          "weight": 4.85
+        },
+        {
+          "symbol": "GOOG",
+          "name": "Alphabet Inc Class C",
+          "weight": 4.68
+        },
+        {
+          "symbol": "META",
+          "name": "Meta Platforms Inc Class A",
+          "weight": 3.73
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla Inc",
+          "weight": 3.31
+        },
+        {
+          "symbol": "LLY",
+          "name": "Eli Lilly and Co",
+          "weight": 2.53
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 0.91
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 11.8
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 0.57
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 1.33
+        },
+        {
+          "sector": "Technology",
+          "weight": 55.85
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 16.37
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 3.95
+        },
+        {
+          "sector": "Industrials",
+          "weight": 4.33
+        },
+        {
+          "sector": "Energy",
+          "weight": 0.28
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 4.62
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.0771913,
+        "3M": 0.1670203,
+        "1Y": 0.30584142,
+        "3Y": 0.2726021,
+        "5Y": 0.1534006
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "Vanguard Growth Index Fund ETF Shares (VUG) is an equity ETF."
+    },
+    {
+      "ticker": "VTV",
+      "name": "Vanguard Value Index Fund ETF Shares",
+      "issuer": "Vanguard",
+      "assetClass": "Equity",
+      "risk": 3,
+      "riskLabel": "Moderate",
+      "expenseRatio": 0.00029999999,
+      "aum": 245010071552,
+      "inceptionDate": "2004-01-26",
+      "dividendYield": 0.0188,
+      "stdDev": 0.1505,
+      "beta": 0.72,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "MU",
+          "name": "Micron Technology Inc",
+          "weight": 4.15
+        },
+        {
+          "symbol": "JPM",
+          "name": "JPMorgan Chase & Co",
+          "weight": 2.87
+        },
+        {
+          "symbol": "BRK-B",
+          "name": "Berkshire Hathaway Inc Class B",
+          "weight": 2.81
+        },
+        {
+          "symbol": "XOM",
+          "name": "Exxon Mobil Corp",
+          "weight": 2.3
+        },
+        {
+          "symbol": "JNJ",
+          "name": "Johnson & Johnson",
+          "weight": 2.06
+        },
+        {
+          "symbol": "WMT",
+          "name": "Walmart Inc",
+          "weight": 1.93
+        },
+        {
+          "symbol": "INTC",
+          "name": "Intel Corp",
+          "weight": 1.74
+        },
+        {
+          "symbol": "CSCO",
+          "name": "Cisco Systems Inc",
+          "weight": 1.63
+        },
+        {
+          "symbol": "CAT",
+          "name": "Caterpillar Inc",
+          "weight": 1.55
+        },
+        {
+          "symbol": "ABBV",
+          "name": "AbbVie Inc",
+          "weight": 1.46
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 2.73
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 3.97
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 3.01
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 8.89
+        },
+        {
+          "sector": "Technology",
+          "weight": 16.94
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 3.1
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 21.47
+        },
+        {
+          "sector": "Utilities",
+          "weight": 4.83
+        },
+        {
+          "sector": "Industrials",
+          "weight": 13.52
+        },
+        {
+          "sector": "Energy",
+          "weight": 7.38
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 14.17
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.0245224,
+        "3M": 0.0275066,
+        "1Y": 0.2618536,
+        "3Y": 0.1903372,
+        "5Y": 0.112968594
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "Vanguard Value Index Fund ETF Shares (VTV) is an equity ETF."
+    },
+    {
+      "ticker": "VO",
+      "name": "Vanguard Mid-Cap Index Fund ETF Shares",
+      "issuer": "Vanguard",
+      "assetClass": "Equity",
+      "risk": 4,
+      "riskLabel": "Moderately Aggressive",
+      "expenseRatio": 0.00029999999,
+      "aum": 218844348416,
+      "inceptionDate": "2004-01-26",
+      "dividendYield": 0.0137,
+      "stdDev": 0.1741,
+      "beta": 0.99,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "STX",
+          "name": "Seagate Technology Holdings PLC",
+          "weight": 1.9
+        },
+        {
+          "symbol": "WDC",
+          "name": "Western Digital Corp",
+          "weight": 1.78
+        },
+        {
+          "symbol": "VRT",
+          "name": "Vertiv Holdings Co Class A",
+          "weight": 1.17
+        },
+        {
+          "symbol": "PWR",
+          "name": "Quanta Services Inc",
+          "weight": 1.05
+        },
+        {
+          "symbol": "HWM",
+          "name": "Howmet Aerospace Inc",
+          "weight": 1.02
+        },
+        {
+          "symbol": "MRVL",
+          "name": "Marvell Technology Inc",
+          "weight": 0.88
+        },
+        {
+          "symbol": "CMI",
+          "name": "Cummins Inc",
+          "weight": 0.88
+        },
+        {
+          "symbol": "CEG",
+          "name": "Constellation Energy Corp",
+          "weight": 0.88
+        },
+        {
+          "symbol": "SLB",
+          "name": "SLB Ltd",
+          "weight": 0.81
+        },
+        {
+          "symbol": "DDOG",
+          "name": "Datadog Inc Class A",
+          "weight": 0.8
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 5.22
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 9.14
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 3.92
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 4.76
+        },
+        {
+          "sector": "Technology",
+          "weight": 20.96
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 2.8
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 12.05
+        },
+        {
+          "sector": "Utilities",
+          "weight": 7.91
+        },
+        {
+          "sector": "Industrials",
+          "weight": 17.99
+        },
+        {
+          "sector": "Energy",
+          "weight": 7.73
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 7.53
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.020558601,
+        "3M": 0.0352186,
+        "1Y": 0.18603411,
+        "3Y": 0.1755745,
+        "5Y": 0.0782554
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "Vanguard Mid-Cap Index Fund ETF Shares (VO) is an equity ETF."
+    },
+    {
+      "ticker": "VB",
+      "name": "Vanguard Small-Cap Index Fund ETF Shares",
+      "issuer": "Vanguard",
+      "assetClass": "Equity",
+      "risk": 4,
+      "riskLabel": "Moderately Aggressive",
+      "expenseRatio": 0.00029999999,
+      "aum": 182652223488,
+      "inceptionDate": "2004-01-26",
+      "dividendYield": 0.0119,
+      "stdDev": 0.197,
+      "beta": 1.14,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "FLEX",
+          "name": "Flex Ltd",
+          "weight": 0.69
+        },
+        {
+          "symbol": "ALAB",
+          "name": "Astera Labs Inc",
+          "weight": 0.62
+        },
+        {
+          "symbol": "CIEN",
+          "name": "Ciena Corp",
+          "weight": 0.51
+        },
+        {
+          "symbol": "RKLB",
+          "name": "Rocket Lab Corp",
+          "weight": 0.51
+        },
+        {
+          "symbol": "CRDO",
+          "name": "Credo Technology Group Holding Ltd",
+          "weight": 0.48
+        },
+        {
+          "symbol": "BE",
+          "name": "Bloom Energy Corp Class A",
+          "weight": 0.47
+        },
+        {
+          "symbol": "EME",
+          "name": "EMCOR Group Inc",
+          "weight": 0.46
+        },
+        {
+          "symbol": "JBL",
+          "name": "Jabil Inc",
+          "weight": 0.45
+        },
+        {
+          "symbol": "COHR",
+          "name": "Coherent Corp",
+          "weight": 0.42
+        },
+        {
+          "symbol": "FIX",
+          "name": "Comfort Systems USA Inc",
+          "weight": 0.4
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 7.47
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 10.93
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 4.65
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 3.14
+        },
+        {
+          "sector": "Technology",
+          "weight": 19.38
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 3.03
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 12.27
+        },
+        {
+          "sector": "Utilities",
+          "weight": 3.1
+        },
+        {
+          "sector": "Industrials",
+          "weight": 20.58
+        },
+        {
+          "sector": "Energy",
+          "weight": 4.21
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 11.25
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.0319609,
+        "3M": 0.0628553,
+        "1Y": 0.3040872,
+        "3Y": 0.18653111,
+        "5Y": 0.0725238
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "Vanguard Small-Cap Index Fund ETF Shares (VB) is an equity ETF."
+    },
+    {
+      "ticker": "MGK",
+      "name": "Vanguard Mega Cap Growth Index Fund",
+      "issuer": "Vanguard",
+      "assetClass": "Equity",
+      "risk": 4,
+      "riskLabel": "Moderately Aggressive",
+      "expenseRatio": 0.0005,
+      "aum": 34992357376,
+      "inceptionDate": "2007-12-17",
+      "dividendYield": 0.0031,
+      "stdDev": 0.1888,
+      "beta": 1.23,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA Corp",
+          "weight": 13.39
+        },
+        {
+          "symbol": "AAPL",
+          "name": "Apple Inc",
+          "weight": 12.46
+        },
+        {
+          "symbol": "MSFT",
+          "name": "Microsoft Corp",
+          "weight": 8.82
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Alphabet Inc Class A",
+          "weight": 5.87
+        },
+        {
+          "symbol": "AVGO",
+          "name": "Broadcom Inc",
+          "weight": 5.11
+        },
+        {
+          "symbol": "AMZN",
+          "name": "Amazon.com Inc",
+          "weight": 4.8
+        },
+        {
+          "symbol": "GOOG",
+          "name": "Alphabet Inc Class C",
+          "weight": 4.61
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla Inc",
+          "weight": 3.94
+        },
+        {
+          "symbol": "META",
+          "name": "Meta Platforms Inc Class A",
+          "weight": 3.71
+        },
+        {
+          "symbol": "LLY",
+          "name": "Eli Lilly and Co",
+          "weight": 3.07
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 1.15
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 12.21
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 0.64
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 0.39
+        },
+        {
+          "sector": "Technology",
+          "weight": 58.46
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 16.47
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 4.12
+        },
+        {
+          "sector": "Industrials",
+          "weight": 2
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 4.56
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.0865579,
+        "3M": 0.1795875,
+        "1Y": 0.32693982,
+        "3Y": 0.2799609,
+        "5Y": 0.1643972
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "Vanguard Mega Cap Growth Index Fund (MGK) is an equity ETF."
+    },
+    {
+      "ticker": "SCHG",
+      "name": "Schwab U.S. Large-Cap Growth ETF",
+      "issuer": "Schwab ETFs",
+      "assetClass": "Equity",
+      "risk": 4,
+      "riskLabel": "Moderately Aggressive",
+      "expenseRatio": 0.0004,
+      "aum": 61082255360,
+      "inceptionDate": "2009-12-11",
+      "dividendYield": 0.0036000002,
+      "stdDev": 0.1826,
+      "beta": 1.19,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA Corp",
+          "weight": 11.01
+        },
+        {
+          "symbol": "AAPL",
+          "name": "Apple Inc",
+          "weight": 9.83
+        },
+        {
+          "symbol": "MSFT",
+          "name": "Microsoft Corp",
+          "weight": 7.17
+        },
+        {
+          "symbol": "AMZN",
+          "name": "Amazon.com Inc",
+          "weight": 5.67
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Alphabet Inc Class A",
+          "weight": 4.75
+        },
+        {
+          "symbol": "AVGO",
+          "name": "Broadcom Inc",
+          "weight": 4.55
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla Inc",
+          "weight": 3.91
+        },
+        {
+          "symbol": "GOOG",
+          "name": "Alphabet Inc Class C",
+          "weight": 3.78
+        },
+        {
+          "symbol": "META",
+          "name": "Meta Platforms Inc Class A",
+          "weight": 3.45
+        },
+        {
+          "symbol": "LLY",
+          "name": "Eli Lilly and Co",
+          "weight": 3.05
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 0.49
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 12.42
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 1.31
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 1.62
+        },
+        {
+          "sector": "Technology",
+          "weight": 46.7
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 15.31
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 6.57
+        },
+        {
+          "sector": "Utilities",
+          "weight": 0.41
+        },
+        {
+          "sector": "Industrials",
+          "weight": 6.03
+        },
+        {
+          "sector": "Energy",
+          "weight": 0.74
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 8.4
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.0671528,
+        "3M": 0.14388931,
+        "1Y": 0.2790947,
+        "3Y": 0.26548558,
+        "5Y": 0.15926561
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "Schwab U.S. Large-Cap Growth ETF (SCHG) is an equity ETF."
+    },
+    {
+      "ticker": "IWF",
+      "name": "iShares Russell 1000 Growth ETF",
+      "issuer": "iShares",
+      "assetClass": "Equity",
+      "risk": 4,
+      "riskLabel": "Moderately Aggressive",
+      "expenseRatio": 0.0018000001,
+      "aum": 132278181888,
+      "inceptionDate": "2000-05-22",
+      "dividendYield": 0.0033000002,
+      "stdDev": 0.1791,
+      "beta": 1.17,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA Corp",
+          "weight": 13.05
+        },
+        {
+          "symbol": "AAPL",
+          "name": "Apple Inc",
+          "weight": 11.93
+        },
+        {
+          "symbol": "MSFT",
+          "name": "Microsoft Corp",
+          "weight": 8.95
+        },
+        {
+          "symbol": "AVGO",
+          "name": "Broadcom Inc",
+          "weight": 5.77
+        },
+        {
+          "symbol": "AMZN",
+          "name": "Amazon.com Inc",
+          "weight": 5.05
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Alphabet Inc Class A",
+          "weight": 3.9
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla Inc",
+          "weight": 3.47
+        },
+        {
+          "symbol": "META",
+          "name": "Meta Platforms Inc Class A",
+          "weight": 3.19
+        },
+        {
+          "symbol": "GOOG",
+          "name": "Alphabet Inc Class C",
+          "weight": 3.14
+        },
+        {
+          "symbol": "LLY",
+          "name": "Eli Lilly and Co",
+          "weight": 2.66
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 0.41
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 12.72
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 0.28
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 2.42
+        },
+        {
+          "sector": "Technology",
+          "weight": 53.89
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 12.4
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 4.96
+        },
+        {
+          "sector": "Utilities",
+          "weight": 0.25
+        },
+        {
+          "sector": "Industrials",
+          "weight": 5.38
+        },
+        {
+          "sector": "Energy",
+          "weight": 0.35
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 6.94
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.0718523,
+        "3M": 0.1365338,
+        "1Y": 0.2842078,
+        "3Y": 0.2623874,
+        "5Y": 0.15534641
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "iShares Russell 1000 Growth ETF (IWF) is an equity ETF."
+    },
+    {
+      "ticker": "IWD",
+      "name": "iShares Russell 1000 Value ETF",
+      "issuer": "iShares",
+      "assetClass": "Equity",
+      "risk": 3,
+      "riskLabel": "Moderate",
+      "expenseRatio": 0.0018000001,
+      "aum": 75561271296,
+      "inceptionDate": "2000-05-22",
+      "dividendYield": 0.015,
+      "stdDev": 0.1593,
+      "beta": 0.83,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "MU",
+          "name": "Micron Technology Inc",
+          "weight": 3.22
+        },
+        {
+          "symbol": "BRK-B",
+          "name": "Berkshire Hathaway Inc Class B",
+          "weight": 2.6
+        },
+        {
+          "symbol": "JPM",
+          "name": "JPMorgan Chase & Co",
+          "weight": 2.41
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Alphabet Inc Class A",
+          "weight": 2.33
+        },
+        {
+          "symbol": "AMZN",
+          "name": "Amazon.com Inc",
+          "weight": 2.12
+        },
+        {
+          "symbol": "GOOG",
+          "name": "Alphabet Inc Class C",
+          "weight": 1.88
+        },
+        {
+          "symbol": "XOM",
+          "name": "Exxon Mobil Corp",
+          "weight": 1.82
+        },
+        {
+          "symbol": "JNJ",
+          "name": "Johnson & Johnson",
+          "weight": 1.61
+        },
+        {
+          "symbol": "INTC",
+          "name": "Intel Corp",
+          "weight": 1.5
+        },
+        {
+          "symbol": "CSCO",
+          "name": "Cisco Systems Inc",
+          "weight": 1.42
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 3.92
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 7.14
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 3.66
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 6.68
+        },
+        {
+          "sector": "Technology",
+          "weight": 18.58
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 8.13
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 18.38
+        },
+        {
+          "sector": "Utilities",
+          "weight": 4.03
+        },
+        {
+          "sector": "Industrials",
+          "weight": 12.53
+        },
+        {
+          "sector": "Energy",
+          "weight": 6.32
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 10.63
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.0293132,
+        "3M": 0.059208598,
+        "1Y": 0.2833479,
+        "3Y": 0.19238159,
+        "5Y": 0.1023042
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "iShares Russell 1000 Value ETF (IWD) is an equity ETF."
+    },
+    {
+      "ticker": "NOBL",
+      "name": "ProShares S&P 500 Dividend Aristocrats ETF",
+      "issuer": "ProShares",
+      "assetClass": "Equity",
+      "risk": 3,
+      "riskLabel": "Moderate",
+      "expenseRatio": 0.0034999999,
+      "aum": 11069606912,
+      "inceptionDate": "2013-10-09",
+      "dividendYield": 0.0212,
+      "stdDev": 0.1525,
+      "beta": 0.67,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "NUE",
+          "name": "Nucor Corp",
+          "weight": 1.76
+        },
+        {
+          "symbol": "WST",
+          "name": "West Pharmaceutical Services Inc",
+          "weight": 1.73
+        },
+        {
+          "symbol": "IBM",
+          "name": "International Business Machines Corp",
+          "weight": 1.71
+        },
+        {
+          "symbol": "ADM",
+          "name": "Archer-Daniels-Midland Co",
+          "weight": 1.68
+        },
+        {
+          "symbol": "BEN",
+          "name": "Franklin Resources Inc",
+          "weight": 1.67
+        },
+        {
+          "symbol": "CL",
+          "name": "Colgate-Palmolive Co",
+          "weight": 1.62
+        },
+        {
+          "symbol": "CAT",
+          "name": "Caterpillar Inc",
+          "weight": 1.61
+        },
+        {
+          "symbol": "ADP",
+          "name": "Automatic Data Processing Inc",
+          "weight": 1.61
+        },
+        {
+          "symbol": "HRL",
+          "name": "Hormel Foods Corp",
+          "weight": 1.6
+        },
+        {
+          "symbol": "SJM",
+          "name": "JM Smucker Co",
+          "weight": 1.58
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 4.57
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 5.26
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 10.16
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 23.56
+        },
+        {
+          "sector": "Technology",
+          "weight": 4.64
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 12.77
+        },
+        {
+          "sector": "Utilities",
+          "weight": 5.71
+        },
+        {
+          "sector": "Industrials",
+          "weight": 20.22
+        },
+        {
+          "sector": "Energy",
+          "weight": 2.88
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 10.22
+        }
+      ],
+      "trailingReturns": {
+        "1M": -0.0106882,
+        "3M": -0.059059,
+        "1Y": 0.0930579,
+        "3Y": 0.0931316,
+        "5Y": 0.0525863
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "ProShares S&P 500 Dividend Aristocrats ETF (NOBL) is an equity ETF."
+    },
+    {
+      "ticker": "DGRO",
+      "name": "iShares Core Dividend Growth ETF",
+      "issuer": "iShares",
+      "assetClass": "Equity",
+      "risk": 3,
+      "riskLabel": "Moderate",
+      "expenseRatio": 0.0008,
+      "aum": 40455868416,
+      "inceptionDate": "2014-06-10",
+      "dividendYield": 0.0196,
+      "stdDev": 0.1437,
+      "beta": 0.7,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "AVGO",
+          "name": "Broadcom Inc",
+          "weight": 3.42
+        },
+        {
+          "symbol": "AAPL",
+          "name": "Apple Inc",
+          "weight": 3.32
+        },
+        {
+          "symbol": "MSFT",
+          "name": "Microsoft Corp",
+          "weight": 3.16
+        },
+        {
+          "symbol": "JPM",
+          "name": "JPMorgan Chase & Co",
+          "weight": 2.87
+        },
+        {
+          "symbol": "XOM",
+          "name": "Exxon Mobil Corp",
+          "weight": 2.69
+        },
+        {
+          "symbol": "ABBV",
+          "name": "AbbVie Inc",
+          "weight": 2.56
+        },
+        {
+          "symbol": "JNJ",
+          "name": "Johnson & Johnson",
+          "weight": 2.55
+        },
+        {
+          "symbol": "UNH",
+          "name": "UnitedHealth Group Inc",
+          "weight": 2.34
+        },
+        {
+          "symbol": "CSCO",
+          "name": "Cisco Systems Inc",
+          "weight": 2.24
+        },
+        {
+          "symbol": "PM",
+          "name": "Philip Morris International Inc",
+          "weight": 2.05
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 5.38
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 2.41
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 11.12
+        },
+        {
+          "sector": "Technology",
+          "weight": 22.01
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 0.13
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 20.61
+        },
+        {
+          "sector": "Utilities",
+          "weight": 6.37
+        },
+        {
+          "sector": "Industrials",
+          "weight": 10.36
+        },
+        {
+          "sector": "Energy",
+          "weight": 5.11
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 16.5
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.0169486,
+        "3M": 0.0190287,
+        "1Y": 0.232128,
+        "3Y": 0.1785993,
+        "5Y": 0.105946906
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "iShares Core Dividend Growth ETF (DGRO) is an equity ETF."
+    },
+    {
+      "ticker": "SCHD",
+      "name": "Schwab U.S. Dividend Equity ETF",
+      "issuer": "Schwab ETFs",
+      "assetClass": "Equity",
+      "risk": 3,
+      "riskLabel": "Moderate",
+      "expenseRatio": 0.00059999997,
+      "aum": 94946205696,
+      "inceptionDate": "2011-10-20",
+      "dividendYield": 0.0325,
+      "stdDev": 0.1536,
+      "beta": 0.59,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "QCOM",
+          "name": "Qualcomm Inc",
+          "weight": 6.73
+        },
+        {
+          "symbol": "TXN",
+          "name": "Texas Instruments Inc",
+          "weight": 5.9
+        },
+        {
+          "symbol": "UNH",
+          "name": "UnitedHealth Group Inc",
+          "weight": 5.09
+        },
+        {
+          "symbol": "KO",
+          "name": "Coca-Cola Co",
+          "weight": 3.95
+        },
+        {
+          "symbol": "MRK",
+          "name": "Merck & Co Inc",
+          "weight": 3.86
+        },
+        {
+          "symbol": "CVX",
+          "name": "Chevron Corp",
+          "weight": 3.83
+        },
+        {
+          "symbol": "VZ",
+          "name": "Verizon Communications Inc",
+          "weight": 3.65
+        },
+        {
+          "symbol": "PG",
+          "name": "Procter & Gamble Co",
+          "weight": 3.54
+        },
+        {
+          "symbol": "COP",
+          "name": "ConocoPhillips",
+          "weight": 3.51
+        },
+        {
+          "symbol": "AMGN",
+          "name": "Amgen Inc",
+          "weight": 3.47
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 6.72
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 18.47
+        },
+        {
+          "sector": "Technology",
+          "weight": 19.36
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 6.04
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 9.06
+        },
+        {
+          "sector": "Utilities",
+          "weight": 0.04
+        },
+        {
+          "sector": "Industrials",
+          "weight": 7.36
+        },
+        {
+          "sector": "Energy",
+          "weight": 14.59
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 18.35
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.0131004,
+        "3M": 0.0312755,
+        "1Y": 0.28751302,
+        "3Y": 0.1613433,
+        "5Y": 0.0865456
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "Schwab U.S. Dividend Equity ETF (SCHD) is an equity ETF."
+    },
+    {
+      "ticker": "VIG",
+      "name": "Vanguard Dividend Appreciation Index Fund ETF Shares",
+      "issuer": "Vanguard",
+      "assetClass": "Equity",
+      "risk": 3,
+      "riskLabel": "Moderate",
+      "expenseRatio": 0.0004,
+      "aum": 127799574528,
+      "inceptionDate": "2006-04-21",
+      "dividendYield": 0.0147,
+      "stdDev": 0.1374,
+      "beta": 0.77,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "AVGO",
+          "name": "Broadcom Inc",
+          "weight": 5.39
+        },
+        {
+          "symbol": "AAPL",
+          "name": "Apple Inc",
+          "weight": 4.55
+        },
+        {
+          "symbol": "MSFT",
+          "name": "Microsoft Corp",
+          "weight": 4.26
+        },
+        {
+          "symbol": "LLY",
+          "name": "Eli Lilly and Co",
+          "weight": 3.83
+        },
+        {
+          "symbol": "JPM",
+          "name": "JPMorgan Chase & Co",
+          "weight": 3.31
+        },
+        {
+          "symbol": "XOM",
+          "name": "Exxon Mobil Corp",
+          "weight": 2.66
+        },
+        {
+          "symbol": "JNJ",
+          "name": "Johnson & Johnson",
+          "weight": 2.38
+        },
+        {
+          "symbol": "V",
+          "name": "Visa Inc Class A",
+          "weight": 2.24
+        },
+        {
+          "symbol": "WMT",
+          "name": "Walmart Inc",
+          "weight": 2.22
+        },
+        {
+          "symbol": "CSCO",
+          "name": "Cisco Systems Inc",
+          "weight": 2.08
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 4.38
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 3.34
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 9.34
+        },
+        {
+          "sector": "Technology",
+          "weight": 29.02
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 19.86
+        },
+        {
+          "sector": "Utilities",
+          "weight": 2.9
+        },
+        {
+          "sector": "Industrials",
+          "weight": 11.32
+        },
+        {
+          "sector": "Energy",
+          "weight": 3.19
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 16.64
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.0261938,
+        "3M": 0.034414303,
+        "1Y": 0.2035996,
+        "3Y": 0.1737377,
+        "5Y": 0.1058737
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "Vanguard Dividend Appreciation Index Fund ETF Shares (VIG) is an equity ETF."
+    },
+    {
+      "ticker": "VYM",
+      "name": "Vanguard High Dividend Yield Index Fund ETF Shares",
+      "issuer": "Vanguard",
+      "assetClass": "Equity",
+      "risk": 3,
+      "riskLabel": "Moderate",
+      "expenseRatio": 0.0004,
+      "aum": 96060563456,
+      "inceptionDate": "2006-11-10",
+      "dividendYield": 0.0221,
+      "stdDev": 0.1449,
+      "beta": 0.7,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "AVGO",
+          "name": "Broadcom Inc",
+          "weight": 8.49
+        },
+        {
+          "symbol": "JPM",
+          "name": "JPMorgan Chase & Co",
+          "weight": 3.13
+        },
+        {
+          "symbol": "XOM",
+          "name": "Exxon Mobil Corp",
+          "weight": 2.52
+        },
+        {
+          "symbol": "JNJ",
+          "name": "Johnson & Johnson",
+          "weight": 2.23
+        },
+        {
+          "symbol": "CSCO",
+          "name": "Cisco Systems Inc",
+          "weight": 1.97
+        },
+        {
+          "symbol": "CAT",
+          "name": "Caterpillar Inc",
+          "weight": 1.67
+        },
+        {
+          "symbol": "ABBV",
+          "name": "AbbVie Inc",
+          "weight": 1.59
+        },
+        {
+          "symbol": "ORCL",
+          "name": "Oracle Corp",
+          "weight": 1.56
+        },
+        {
+          "symbol": "UNH",
+          "name": "UnitedHealth Group Inc",
+          "weight": 1.42
+        },
+        {
+          "symbol": "CVX",
+          "name": "Chevron Corp",
+          "weight": 1.41
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 0.02
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 6.59
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 3.39
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 7.99
+        },
+        {
+          "sector": "Technology",
+          "weight": 20.25
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 3.37
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 19.95
+        },
+        {
+          "sector": "Utilities",
+          "weight": 5.36
+        },
+        {
+          "sector": "Industrials",
+          "weight": 11.82
+        },
+        {
+          "sector": "Energy",
+          "weight": 9.1
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 12.16
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.0127903,
+        "3M": 0.0324717,
+        "1Y": 0.2645828,
+        "3Y": 0.19616091,
+        "5Y": 0.1153625
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "Vanguard High Dividend Yield Index Fund ETF Shares (VYM) is an equity ETF."
+    },
+    {
+      "ticker": "HDV",
+      "name": "iShares Core High Dividend ETF",
+      "issuer": "iShares",
+      "assetClass": "Equity",
+      "risk": 3,
+      "riskLabel": "Moderate",
+      "expenseRatio": 0.0008,
+      "aum": 13406716928,
+      "inceptionDate": "2011-03-29",
+      "dividendYield": 0.0291,
+      "stdDev": 0.1483,
+      "beta": 0.33,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "XOM",
+          "name": "Exxon Mobil Corp",
+          "weight": 8.06
+        },
+        {
+          "symbol": "CVX",
+          "name": "Chevron Corp",
+          "weight": 6.16
+        },
+        {
+          "symbol": "ABBV",
+          "name": "AbbVie Inc",
+          "weight": 5.69
+        },
+        {
+          "symbol": "JNJ",
+          "name": "Johnson & Johnson",
+          "weight": 5.66
+        },
+        {
+          "symbol": "PM",
+          "name": "Philip Morris International Inc",
+          "weight": 4.55
+        },
+        {
+          "symbol": "PG",
+          "name": "Procter & Gamble Co",
+          "weight": 4.42
+        },
+        {
+          "symbol": "MRK",
+          "name": "Merck & Co Inc",
+          "weight": 4.16
+        },
+        {
+          "symbol": "HD",
+          "name": "The Home Depot Inc",
+          "weight": 3.99
+        },
+        {
+          "symbol": "KO",
+          "name": "Coca-Cola Co",
+          "weight": 3.94
+        },
+        {
+          "symbol": "TXN",
+          "name": "Texas Instruments Inc",
+          "weight": 3.91
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 5.96
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 1.12
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 24.23
+        },
+        {
+          "sector": "Technology",
+          "weight": 9.72
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 10.77
+        },
+        {
+          "sector": "Utilities",
+          "weight": 8.9
+        },
+        {
+          "sector": "Industrials",
+          "weight": 1.33
+        },
+        {
+          "sector": "Energy",
+          "weight": 20.96
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 17.01
+        }
+      ],
+      "trailingReturns": {
+        "1M": -0.0101333,
+        "3M": -0.023572,
+        "1Y": 0.20693791,
+        "3Y": 0.1549758,
+        "5Y": 0.106194
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "iShares Core High Dividend ETF (HDV) is an equity ETF."
+    },
+    {
+      "ticker": "DVY",
+      "name": "iShares Select Dividend ETF",
+      "issuer": "iShares",
+      "assetClass": "Equity",
+      "risk": 4,
+      "riskLabel": "Moderately Aggressive",
+      "expenseRatio": 0.0038,
+      "aum": 22536437760,
+      "inceptionDate": "2003-11-03",
+      "dividendYield": 0.0339,
+      "stdDev": 0.1643,
+      "beta": 0.59,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "MO",
+          "name": "Altria Group Inc",
+          "weight": 2.22
+        },
+        {
+          "symbol": "PFE",
+          "name": "Pfizer Inc",
+          "weight": 2.19
+        },
+        {
+          "symbol": "HPQ",
+          "name": "HP Inc",
+          "weight": 2.11
+        },
+        {
+          "symbol": "TROW",
+          "name": "T. Rowe Price Group Inc",
+          "weight": 2.08
+        },
+        {
+          "symbol": "F",
+          "name": "Ford Motor Co",
+          "weight": 2.02
+        },
+        {
+          "symbol": "PRU",
+          "name": "Prudential Financial Inc",
+          "weight": 1.9
+        },
+        {
+          "symbol": "VZ",
+          "name": "Verizon Communications Inc",
+          "weight": 1.86
+        },
+        {
+          "symbol": "OKE",
+          "name": "ONEOK Inc",
+          "weight": 1.68
+        },
+        {
+          "symbol": "EIX",
+          "name": "Edison International",
+          "weight": 1.56
+        },
+        {
+          "symbol": "KMB",
+          "name": "Kimberly-Clark Corp",
+          "weight": 1.51
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 10.11
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 2.19
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 13.53
+        },
+        {
+          "sector": "Technology",
+          "weight": 4.3
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 5.74
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 24.83
+        },
+        {
+          "sector": "Utilities",
+          "weight": 23.56
+        },
+        {
+          "sector": "Industrials",
+          "weight": 1.97
+        },
+        {
+          "sector": "Energy",
+          "weight": 8.59
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 5.2
+        }
+      ],
+      "trailingReturns": {
+        "1M": -0.0031668001,
+        "3M": -0.0015815,
+        "1Y": 0.2244319,
+        "3Y": 0.1693165,
+        "5Y": 0.0894465
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "iShares Select Dividend ETF (DVY) is an equity ETF."
+    },
+    {
+      "ticker": "SDY",
+      "name": "State Street SPDR S&P Dividend ETF",
+      "issuer": "State Street Investment Management",
+      "assetClass": "Equity",
+      "risk": 3,
+      "riskLabel": "Moderate",
+      "expenseRatio": 0.0034999999,
+      "aum": 21030260736,
+      "inceptionDate": "2005-11-08",
+      "dividendYield": 0.0247,
+      "stdDev": 0.1505,
+      "beta": 0.61,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "VZ",
+          "name": "Verizon Communications Inc",
+          "weight": 2.48
+        },
+        {
+          "symbol": "QCOM",
+          "name": "Qualcomm Inc",
+          "weight": 2.18
+        },
+        {
+          "symbol": "O",
+          "name": "Realty Income Corp",
+          "weight": 2.16
+        },
+        {
+          "symbol": "TXN",
+          "name": "Texas Instruments Inc",
+          "weight": 1.63
+        },
+        {
+          "symbol": "KVUE",
+          "name": "Kenvue Inc",
+          "weight": 1.62
+        },
+        {
+          "symbol": "KMB",
+          "name": "Kimberly-Clark Corp",
+          "weight": 1.59
+        },
+        {
+          "symbol": "ADP",
+          "name": "Automatic Data Processing Inc",
+          "weight": 1.56
+        },
+        {
+          "symbol": "TGT",
+          "name": "Target Corp",
+          "weight": 1.54
+        },
+        {
+          "symbol": "PEP",
+          "name": "PepsiCo Inc",
+          "weight": 1.45
+        },
+        {
+          "symbol": "ABBV",
+          "name": "AbbVie Inc",
+          "weight": 1.44
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 4.4
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 5.89
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 5.92
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 16.11
+        },
+        {
+          "sector": "Technology",
+          "weight": 11.79
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 2.5
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 11.86
+        },
+        {
+          "sector": "Utilities",
+          "weight": 14.01
+        },
+        {
+          "sector": "Industrials",
+          "weight": 17.06
+        },
+        {
+          "sector": "Energy",
+          "weight": 3.04
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 7.4
+        }
+      ],
+      "trailingReturns": {
+        "1M": -0.0049485,
+        "3M": -0.036995,
+        "1Y": 0.1378794,
+        "3Y": 0.1125118,
+        "5Y": 0.0633928
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "State Street SPDR S&P Dividend ETF (SDY) is an equity ETF."
+    },
+    {
+      "ticker": "JEPI",
+      "name": "JPMorgan Equity Premium Income ETF",
+      "issuer": "JPMorgan",
+      "assetClass": "Equity",
+      "risk": 3,
+      "riskLabel": "Moderate",
+      "expenseRatio": 0.0034999999,
+      "aum": 44585009152,
+      "inceptionDate": "2020-05-20",
+      "dividendYield": 0.0845,
+      "stdDev": 0.1027,
+      "beta": 0.45,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "AVGO",
+          "name": "Broadcom Inc",
+          "weight": 1.77
+        },
+        {
+          "symbol": "ROST",
+          "name": "Ross Stores Inc",
+          "weight": 1.71
+        },
+        {
+          "symbol": "AMZN",
+          "name": "Amazon.com Inc",
+          "weight": 1.7
+        },
+        {
+          "symbol": "AAPL",
+          "name": "Apple Inc",
+          "weight": 1.67
+        },
+        {
+          "symbol": "HWM",
+          "name": "Howmet Aerospace Inc",
+          "weight": 1.65
+        },
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA Corp",
+          "weight": 1.63
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Alphabet Inc Class A",
+          "weight": 1.63
+        },
+        {
+          "symbol": "ETN",
+          "name": "Eaton Corp PLC",
+          "weight": 1.56
+        },
+        {
+          "symbol": "ABBV",
+          "name": "AbbVie Inc",
+          "weight": 1.52
+        },
+        {
+          "symbol": "EOG",
+          "name": "EOG Resources Inc",
+          "weight": 1.52
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 3.37
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 11.82
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 1.86
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 9.26
+        },
+        {
+          "sector": "Technology",
+          "weight": 19.72
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 6.86
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 9.81
+        },
+        {
+          "sector": "Utilities",
+          "weight": 5.55
+        },
+        {
+          "sector": "Industrials",
+          "weight": 14.24
+        },
+        {
+          "sector": "Energy",
+          "weight": 3.17
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 14.35
+        }
+      ],
+      "trailingReturns": {
+        "1M": -0.0189272,
+        "3M": -0.0440935,
+        "1Y": 0.0858568,
+        "3Y": 0.095293,
+        "5Y": 0.0747865
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "JPMorgan Equity Premium Income ETF (JEPI) is an equity ETF."
+    },
+    {
+      "ticker": "VEA",
+      "name": "Vanguard FTSE Developed Markets Index Fund ETF Shares",
+      "issuer": "Vanguard",
+      "assetClass": "Equity",
+      "risk": 3,
+      "riskLabel": "Moderate",
+      "expenseRatio": 0.00029999999,
+      "aum": 317302603776,
+      "inceptionDate": "2007-07-20",
+      "dividendYield": 0.026099999,
+      "stdDev": 0.1576,
+      "beta": 0.97,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "005930.KS",
+          "name": "Samsung Electronics Co Ltd",
+          "weight": 3.01
+        },
+        {
+          "symbol": "000660.KS",
+          "name": "SK Hynix Inc",
+          "weight": 2.57
+        },
+        {
+          "symbol": "ASML.AS",
+          "name": "ASML Holding NV",
+          "weight": 1.91
+        },
+        {
+          "symbol": "HSBA.L",
+          "name": "HSBC Holdings PLC",
+          "weight": 0.98
+        },
+        {
+          "symbol": "ROP.SW",
+          "name": "Roche Holding AG Ordinary Shares new",
+          "weight": 0.9
+        },
+        {
+          "symbol": "NOVN.SW",
+          "name": "Novartis AG Registered Shares",
+          "weight": 0.88
+        },
+        {
+          "symbol": "AZN.L",
+          "name": "AstraZeneca PLC",
+          "weight": 0.85
+        },
+        {
+          "symbol": "RY",
+          "name": "Royal Bank of Canada",
+          "weight": 0.82
+        },
+        {
+          "symbol": "NESN.SW",
+          "name": "Nestle SA",
+          "weight": 0.8
+        },
+        {
+          "symbol": "SHEL.L",
+          "name": "Shell PLC",
+          "weight": 0.73
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 2.53
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 7.55
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 7.56
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 5.27
+        },
+        {
+          "sector": "Technology",
+          "weight": 16.76
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 3.54
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 22.63
+        },
+        {
+          "sector": "Utilities",
+          "weight": 3.06
+        },
+        {
+          "sector": "Industrials",
+          "weight": 18.36
+        },
+        {
+          "sector": "Energy",
+          "weight": 4.88
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 7.87
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.0438953,
+        "3M": 0.023413898,
+        "1Y": 0.3336753,
+        "3Y": 0.21104379,
+        "5Y": 0.0992733
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "Vanguard FTSE Developed Markets Index Fund ETF Shares (VEA) is an equity ETF."
+    },
+    {
+      "ticker": "VWO",
+      "name": "Vanguard Emerging Markets Stock Index Fund",
+      "issuer": "Vanguard",
+      "assetClass": "Equity",
+      "risk": 3,
+      "riskLabel": "Moderate",
+      "expenseRatio": 0.00059999997,
+      "aum": 162822127616,
+      "inceptionDate": "2005-03-04",
+      "dividendYield": 0.024300002,
+      "stdDev": 0.1579,
+      "beta": 0.78,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "2330.TW",
+          "name": "Taiwan Semiconductor Manufacturing Co Ltd",
+          "weight": 14.66
+        },
+        {
+          "symbol": "0700.HK",
+          "name": "Tencent Holdings Ltd",
+          "weight": 2.74
+        },
+        {
+          "symbol": "9988.HK",
+          "name": "Alibaba Group Holding Ltd Ordinary Shares",
+          "weight": 2.26
+        },
+        {
+          "symbol": "2454.TW",
+          "name": "MediaTek Inc",
+          "weight": 1.62
+        },
+        {
+          "symbol": "2308.TW",
+          "name": "Delta Electronics Inc",
+          "weight": 1.2
+        },
+        {
+          "symbol": "2317.TW",
+          "name": "Hon Hai Precision Industry Co Ltd",
+          "weight": 0.91
+        },
+        {
+          "symbol": "RELIANCE.NS",
+          "name": "Reliance Industries Ltd",
+          "weight": 0.77
+        },
+        {
+          "symbol": "00939",
+          "name": "China Construction Bank Corp Class H",
+          "weight": 0.77
+        },
+        {
+          "symbol": "HDFCBANK.NS",
+          "name": "HDFC Bank Ltd",
+          "weight": 0.72
+        },
+        {
+          "symbol": "ICICIBANK.NS",
+          "name": "ICICI Bank Ltd",
+          "weight": 0.57
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 2.14
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 9.92
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 7.72
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 3.45
+        },
+        {
+          "sector": "Technology",
+          "weight": 32.78
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 6.61
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 18.95
+        },
+        {
+          "sector": "Utilities",
+          "weight": 2.86
+        },
+        {
+          "sector": "Industrials",
+          "weight": 7.82
+        },
+        {
+          "sector": "Energy",
+          "weight": 4.11
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 3.65
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.0198223,
+        "3M": 0.0300311,
+        "1Y": 0.3064864,
+        "3Y": 0.1881645,
+        "5Y": 0.053909402
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "Vanguard Emerging Markets Stock Index Fund (VWO) is an equity ETF."
+    },
+    {
+      "ticker": "VXUS",
+      "name": "Vanguard Total International Stock Index Fund ETF Shares",
+      "issuer": "Vanguard",
+      "assetClass": "Equity",
+      "risk": 3,
+      "riskLabel": "Moderate",
+      "expenseRatio": 0.0005,
+      "aum": 652301238272,
+      "inceptionDate": "2011-01-26",
+      "dividendYield": 0.026600001,
+      "stdDev": 0.1522,
+      "beta": 0.92,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "2330.TW",
+          "name": "Taiwan Semiconductor Manufacturing Co Ltd",
+          "weight": 3.98
+        },
+        {
+          "symbol": "005930.KS",
+          "name": "Samsung Electronics Co Ltd",
+          "weight": 2.19
+        },
+        {
+          "symbol": "000660.KS",
+          "name": "SK Hynix Inc",
+          "weight": 1.86
+        },
+        {
+          "symbol": "ASML.AS",
+          "name": "ASML Holding NV",
+          "weight": 1.39
+        },
+        {
+          "symbol": "0700.HK",
+          "name": "Tencent Holdings Ltd",
+          "weight": 0.74
+        },
+        {
+          "symbol": "HSBA.L",
+          "name": "HSBC Holdings PLC",
+          "weight": 0.71
+        },
+        {
+          "symbol": "ROP.SW",
+          "name": "Roche Holding AG Ordinary Shares new",
+          "weight": 0.65
+        },
+        {
+          "symbol": "NOVN.SW",
+          "name": "Novartis AG Registered Shares",
+          "weight": 0.64
+        },
+        {
+          "symbol": "AZN.L",
+          "name": "AstraZeneca PLC",
+          "weight": 0.62
+        },
+        {
+          "symbol": "9988.HK",
+          "name": "Alibaba Group Holding Ltd Ordinary Shares",
+          "weight": 0.61
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 2.42
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 8.19
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 7.58
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 4.78
+        },
+        {
+          "sector": "Technology",
+          "weight": 21.04
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 4.36
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 21.66
+        },
+        {
+          "sector": "Utilities",
+          "weight": 3
+        },
+        {
+          "sector": "Industrials",
+          "weight": 15.55
+        },
+        {
+          "sector": "Energy",
+          "weight": 4.67
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 6.75
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.0375287,
+        "3M": 0.0255133,
+        "1Y": 0.32636392,
+        "3Y": 0.2053177,
+        "5Y": 0.0875296
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "Vanguard Total International Stock Index Fund ETF Shares (VXUS) is an equity ETF."
+    },
+    {
+      "ticker": "VT",
+      "name": "Vanguard Total World Stock Index Fund ETF Shares",
+      "issuer": "Vanguard",
+      "assetClass": "Equity",
+      "risk": 3,
+      "riskLabel": "Moderate",
+      "expenseRatio": 0.00059999997,
+      "aum": 95332884480,
+      "inceptionDate": "2008-06-24",
+      "dividendYield": 0.0159,
+      "stdDev": 0.1509,
+      "beta": 0.98,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA Corp",
+          "weight": 4.2
+        },
+        {
+          "symbol": "AAPL",
+          "name": "Apple Inc",
+          "weight": 3.82
+        },
+        {
+          "symbol": "MSFT",
+          "name": "Microsoft Corp",
+          "weight": 2.84
+        },
+        {
+          "symbol": "AMZN",
+          "name": "Amazon.com Inc",
+          "weight": 2.21
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Alphabet Inc Class A",
+          "weight": 1.9
+        },
+        {
+          "symbol": "AVGO",
+          "name": "Broadcom Inc",
+          "weight": 1.76
+        },
+        {
+          "symbol": "2330.TW",
+          "name": "Taiwan Semiconductor Manufacturing Co Ltd",
+          "weight": 1.53
+        },
+        {
+          "symbol": "GOOG",
+          "name": "Alphabet Inc Class C",
+          "weight": 1.49
+        },
+        {
+          "symbol": "META",
+          "name": "Meta Platforms Inc Class A",
+          "weight": 1.17
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla Inc",
+          "weight": 1.05
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 2.29
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 9.3
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 4.08
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 4.51
+        },
+        {
+          "sector": "Technology",
+          "weight": 31.1
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 7.95
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 15.23
+        },
+        {
+          "sector": "Utilities",
+          "weight": 2.44
+        },
+        {
+          "sector": "Industrials",
+          "weight": 11.41
+        },
+        {
+          "sector": "Energy",
+          "weight": 3.8
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 7.89
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.0462068,
+        "3M": 0.0715599,
+        "1Y": 0.3049463,
+        "3Y": 0.221163,
+        "5Y": 0.1122902
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "Vanguard Total World Stock Index Fund ETF Shares (VT) is an equity ETF."
+    },
+    {
+      "ticker": "VEU",
+      "name": "Vanguard FTSE All-World ex-US Index Fund ETF Shares",
+      "issuer": "Vanguard",
+      "assetClass": "Equity",
+      "risk": 3,
+      "riskLabel": "Moderate",
+      "expenseRatio": 0.0004,
+      "aum": 94422016000,
+      "inceptionDate": "2007-03-02",
+      "dividendYield": 0.026099999,
+      "stdDev": 0.1497,
+      "beta": 0.91,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "2330.TW",
+          "name": "Taiwan Semiconductor Manufacturing Co Ltd",
+          "weight": 4.37
+        },
+        {
+          "symbol": "005930.KS",
+          "name": "Samsung Electronics Co Ltd",
+          "weight": 2.41
+        },
+        {
+          "symbol": "000660.KS",
+          "name": "SK Hynix Inc",
+          "weight": 2.05
+        },
+        {
+          "symbol": "ASML.AS",
+          "name": "ASML Holding NV",
+          "weight": 1.53
+        },
+        {
+          "symbol": "0700.HK",
+          "name": "Tencent Holdings Ltd",
+          "weight": 0.82
+        },
+        {
+          "symbol": "HSBA.L",
+          "name": "HSBC Holdings PLC",
+          "weight": 0.78
+        },
+        {
+          "symbol": "ROP.SW",
+          "name": "Roche Holding AG Ordinary Shares new",
+          "weight": 0.72
+        },
+        {
+          "symbol": "NOVN.SW",
+          "name": "Novartis AG Registered Shares",
+          "weight": 0.7
+        },
+        {
+          "symbol": "AZN.L",
+          "name": "AstraZeneca PLC",
+          "weight": 0.68
+        },
+        {
+          "symbol": "9988.HK",
+          "name": "Alibaba Group Holding Ltd Ordinary Shares",
+          "weight": 0.67
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 1.9
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 8.03
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 7.1
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 4.86
+        },
+        {
+          "sector": "Technology",
+          "weight": 21.55
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 4.48
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 22.63
+        },
+        {
+          "sector": "Utilities",
+          "weight": 3.01
+        },
+        {
+          "sector": "Industrials",
+          "weight": 15.03
+        },
+        {
+          "sector": "Energy",
+          "weight": 4.67
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 6.74
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.0394802,
+        "3M": 0.0281145,
+        "1Y": 0.3283928,
+        "3Y": 0.207213,
+        "5Y": 0.089519195
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "Vanguard FTSE All-World ex-US Index Fund ETF Shares (VEU) is an equity ETF."
+    },
+    {
+      "ticker": "EFA",
+      "name": "iShares MSCI EAFE ETF",
+      "issuer": "iShares",
+      "assetClass": "Equity",
+      "risk": 3,
+      "riskLabel": "Moderate",
+      "expenseRatio": 0.0032,
+      "aum": 77424812032,
+      "inceptionDate": "2001-08-14",
+      "dividendYield": 0.031,
+      "stdDev": 0.1512,
+      "beta": 0.87,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "ASML.AS",
+          "name": "ASML Holding NV",
+          "weight": 2.88
+        },
+        {
+          "symbol": "HSBA.L",
+          "name": "HSBC Holdings PLC",
+          "weight": 1.48
+        },
+        {
+          "symbol": "ROP.SW",
+          "name": "Roche Holding AG Ordinary Shares new",
+          "weight": 1.36
+        },
+        {
+          "symbol": "AZN.L",
+          "name": "AstraZeneca PLC",
+          "weight": 1.29
+        },
+        {
+          "symbol": "NOVN.SW",
+          "name": "Novartis AG Registered Shares",
+          "weight": 1.27
+        },
+        {
+          "symbol": "NESN.SW",
+          "name": "Nestle SA",
+          "weight": 1.2
+        },
+        {
+          "symbol": "SHEL.L",
+          "name": "Shell PLC",
+          "weight": 1.09
+        },
+        {
+          "symbol": "SIE.DE",
+          "name": "Siemens AG",
+          "weight": 1.08
+        },
+        {
+          "symbol": "BHP.AX",
+          "name": "BHP Group Ltd",
+          "weight": 1.05
+        },
+        {
+          "symbol": "8306.T",
+          "name": "Mitsubishi UFJ Financial Group Inc",
+          "weight": 0.93
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 1.74
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 7.66
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 6.24
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 6.43
+        },
+        {
+          "sector": "Technology",
+          "weight": 11.73
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 4.8
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 24.28
+        },
+        {
+          "sector": "Utilities",
+          "weight": 3.71
+        },
+        {
+          "sector": "Industrials",
+          "weight": 19.44
+        },
+        {
+          "sector": "Energy",
+          "weight": 3.67
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 10.31
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.024019599,
+        "3M": -0.0052901,
+        "1Y": 0.22440611,
+        "3Y": 0.178794,
+        "5Y": 0.0868614
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "iShares MSCI EAFE ETF (EFA) is an equity ETF."
+    },
+    {
+      "ticker": "IEFA",
+      "name": "iShares Core MSCI EAFE ETF",
+      "issuer": "iShares",
+      "assetClass": "Equity",
+      "risk": 3,
+      "riskLabel": "Moderate",
+      "expenseRatio": 0.0007,
+      "aum": 186617839616,
+      "inceptionDate": "2012-10-18",
+      "dividendYield": 0.0324,
+      "stdDev": 0.1531,
+      "beta": 0.89,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "ASML.AS",
+          "name": "ASML Holding NV",
+          "weight": 2.46
+        },
+        {
+          "symbol": "HSBA.L",
+          "name": "HSBC Holdings PLC",
+          "weight": 1.26
+        },
+        {
+          "symbol": "ROP.SW",
+          "name": "Roche Holding AG Ordinary Shares new",
+          "weight": 1.16
+        },
+        {
+          "symbol": "AZN.L",
+          "name": "AstraZeneca PLC",
+          "weight": 1.11
+        },
+        {
+          "symbol": "NOVN.SW",
+          "name": "Novartis AG Registered Shares",
+          "weight": 1.08
+        },
+        {
+          "symbol": "NESN.SW",
+          "name": "Nestle SA",
+          "weight": 1.02
+        },
+        {
+          "symbol": "SHEL.L",
+          "name": "Shell PLC",
+          "weight": 0.92
+        },
+        {
+          "symbol": "SIE.DE",
+          "name": "Siemens AG",
+          "weight": 0.92
+        },
+        {
+          "symbol": "BHP.AX",
+          "name": "BHP Group Ltd",
+          "weight": 0.89
+        },
+        {
+          "symbol": "8306.T",
+          "name": "Mitsubishi UFJ Financial Group Inc",
+          "weight": 0.79
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 2.92
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 8.29
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 6.78
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 6.16
+        },
+        {
+          "sector": "Technology",
+          "weight": 11.6
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 4.7
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 22.59
+        },
+        {
+          "sector": "Utilities",
+          "weight": 3.51
+        },
+        {
+          "sector": "Industrials",
+          "weight": 20.14
+        },
+        {
+          "sector": "Energy",
+          "weight": 3.64
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 9.67
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.02546,
+        "3M": -0.0028682,
+        "1Y": 0.2336216,
+        "3Y": 0.1818693,
+        "5Y": 0.0850728
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "iShares Core MSCI EAFE ETF (IEFA) is an equity ETF."
+    },
+    {
+      "ticker": "EEM",
+      "name": "iShares MSCI Emerging Markets ETF",
+      "issuer": "iShares",
+      "assetClass": "Equity",
+      "risk": 4,
+      "riskLabel": "Moderately Aggressive",
+      "expenseRatio": 0.0072000003,
+      "aum": 30325661696,
+      "inceptionDate": "2003-04-07",
+      "dividendYield": 0.0177,
+      "stdDev": 0.1703,
+      "beta": 1.03,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "2330.TW",
+          "name": "Taiwan Semiconductor Manufacturing Co Ltd",
+          "weight": 14.74
+        },
+        {
+          "symbol": "005930.KS",
+          "name": "Samsung Electronics Co Ltd",
+          "weight": 7.83
+        },
+        {
+          "symbol": "000660.KS",
+          "name": "SK Hynix Inc",
+          "weight": 6.81
+        },
+        {
+          "symbol": "0700.HK",
+          "name": "Tencent Holdings Ltd",
+          "weight": 2.67
+        },
+        {
+          "symbol": "9988.HK",
+          "name": "Alibaba Group Holding Ltd Ordinary Shares",
+          "weight": 2.06
+        },
+        {
+          "symbol": "2454.TW",
+          "name": "MediaTek Inc",
+          "weight": 1.58
+        },
+        {
+          "symbol": "2308.TW",
+          "name": "Delta Electronics Inc",
+          "weight": 1.21
+        },
+        {
+          "symbol": "2317.TW",
+          "name": "Hon Hai Precision Industry Co Ltd",
+          "weight": 0.9
+        },
+        {
+          "symbol": "005935",
+          "name": "Samsung Electronics Co Ltd Participating Preferred",
+          "weight": 0.86
+        },
+        {
+          "symbol": "00939",
+          "name": "China Construction Bank Corp Class H",
+          "weight": 0.73
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 0.98
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 8.35
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 5.89
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 2.54
+        },
+        {
+          "sector": "Technology",
+          "weight": 44.26
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 6.01
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 17.65
+        },
+        {
+          "sector": "Utilities",
+          "weight": 1.84
+        },
+        {
+          "sector": "Industrials",
+          "weight": 6.58
+        },
+        {
+          "sector": "Energy",
+          "weight": 3.43
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 2.47
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.0790195,
+        "3M": 0.0961255,
+        "1Y": 0.5393427,
+        "3Y": 0.2438044,
+        "5Y": 0.0705046
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "iShares MSCI Emerging Markets ETF (EEM) is an equity ETF."
+    },
+    {
+      "ticker": "IEMG",
+      "name": "iShares Core MSCI Emerging Markets ETF",
+      "issuer": "iShares",
+      "assetClass": "Equity",
+      "risk": 4,
+      "riskLabel": "Moderately Aggressive",
+      "expenseRatio": 0.00090000004,
+      "aum": 162030354432,
+      "inceptionDate": "2012-10-18",
+      "dividendYield": 0.0221,
+      "stdDev": 0.1676,
+      "beta": 1.01,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "2330.TW",
+          "name": "Taiwan Semiconductor Manufacturing Co Ltd",
+          "weight": 12.91
+        },
+        {
+          "symbol": "005930.KS",
+          "name": "Samsung Electronics Co Ltd",
+          "weight": 6.85
+        },
+        {
+          "symbol": "000660.KS",
+          "name": "SK Hynix Inc",
+          "weight": 5.95
+        },
+        {
+          "symbol": "0700.HK",
+          "name": "Tencent Holdings Ltd",
+          "weight": 2.34
+        },
+        {
+          "symbol": "9988.HK",
+          "name": "Alibaba Group Holding Ltd Ordinary Shares",
+          "weight": 1.8
+        },
+        {
+          "symbol": "2454.TW",
+          "name": "MediaTek Inc",
+          "weight": 1.38
+        },
+        {
+          "symbol": "2308.TW",
+          "name": "Delta Electronics Inc",
+          "weight": 1.06
+        },
+        {
+          "symbol": "2317.TW",
+          "name": "Hon Hai Precision Industry Co Ltd",
+          "weight": 0.79
+        },
+        {
+          "symbol": "005935",
+          "name": "Samsung Electronics Co Ltd Participating Preferred",
+          "weight": 0.75
+        },
+        {
+          "symbol": "00939",
+          "name": "China Construction Bank Corp Class H",
+          "weight": 0.64
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 1.57
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 8.52
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 6.25
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 2.81
+        },
+        {
+          "sector": "Technology",
+          "weight": 42.12
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 5.64
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 16.7
+        },
+        {
+          "sector": "Utilities",
+          "weight": 1.89
+        },
+        {
+          "sector": "Industrials",
+          "weight": 8
+        },
+        {
+          "sector": "Energy",
+          "weight": 3.26
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 3.24
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.071859196,
+        "3M": 0.0898057,
+        "1Y": 0.5158516,
+        "3Y": 0.242242,
+        "5Y": 0.0775183
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "iShares Core MSCI Emerging Markets ETF (IEMG) is an equity ETF."
+    },
+    {
+      "ticker": "VGK",
+      "name": "Vanguard FTSE Europe ETF",
+      "issuer": "Vanguard",
+      "assetClass": "Equity",
+      "risk": 4,
+      "riskLabel": "Moderately Aggressive",
+      "expenseRatio": 0.00059999997,
+      "aum": 38120620032,
+      "inceptionDate": "2005-03-04",
+      "dividendYield": 0.0278,
+      "stdDev": 0.1713,
+      "beta": 0.9,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "ASML.AS",
+          "name": "ASML Holding NV",
+          "weight": 3.97
+        },
+        {
+          "symbol": "HSBA.L",
+          "name": "HSBC Holdings PLC",
+          "weight": 2.04
+        },
+        {
+          "symbol": "ROP.SW",
+          "name": "Roche Holding AG Ordinary Shares new",
+          "weight": 1.87
+        },
+        {
+          "symbol": "NOVN.SW",
+          "name": "Novartis AG Registered Shares",
+          "weight": 1.83
+        },
+        {
+          "symbol": "AZN.L",
+          "name": "AstraZeneca PLC",
+          "weight": 1.76
+        },
+        {
+          "symbol": "NESN.SW",
+          "name": "Nestle SA",
+          "weight": 1.65
+        },
+        {
+          "symbol": "SHEL.L",
+          "name": "Shell PLC",
+          "weight": 1.52
+        },
+        {
+          "symbol": "SIE.DE",
+          "name": "Siemens AG",
+          "weight": 1.46
+        },
+        {
+          "symbol": "SAP.DE",
+          "name": "SAP SE",
+          "weight": 1.18
+        },
+        {
+          "symbol": "SAN.MC",
+          "name": "Banco Santander SA",
+          "weight": 1.16
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 1.55
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 7.13
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 5.61
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 7.72
+        },
+        {
+          "sector": "Technology",
+          "weight": 9.39
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 3.12
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 23.45
+        },
+        {
+          "sector": "Utilities",
+          "weight": 4.39
+        },
+        {
+          "sector": "Industrials",
+          "weight": 20.25
+        },
+        {
+          "sector": "Energy",
+          "weight": 4.96
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 12.42
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.020955,
+        "3M": -0.008088,
+        "1Y": 0.2001029,
+        "3Y": 0.17869681,
+        "5Y": 0.0878146
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "Vanguard FTSE Europe ETF (VGK) is an equity ETF."
+    },
+    {
+      "ticker": "ACWI",
+      "name": "iShares MSCI ACWI ETF",
+      "issuer": "iShares",
+      "assetClass": "Equity",
+      "risk": 3,
+      "riskLabel": "Moderate",
+      "expenseRatio": 0.0032,
+      "aum": 32931053568,
+      "inceptionDate": "2008-03-26",
+      "dividendYield": 0.0138,
+      "stdDev": 0.1472,
+      "beta": 0.97,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA Corp",
+          "weight": 4.75
+        },
+        {
+          "symbol": "AAPL",
+          "name": "Apple Inc",
+          "weight": 4.46
+        },
+        {
+          "symbol": "MSFT",
+          "name": "Microsoft Corp",
+          "weight": 3.1
+        },
+        {
+          "symbol": "AMZN",
+          "name": "Amazon.com Inc",
+          "weight": 2.55
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Alphabet Inc Class A",
+          "weight": 2.16
+        },
+        {
+          "symbol": "AVGO",
+          "name": "Broadcom Inc",
+          "weight": 1.96
+        },
+        {
+          "symbol": "2330.TW",
+          "name": "Taiwan Semiconductor Manufacturing Co Ltd",
+          "weight": 1.8
+        },
+        {
+          "symbol": "GOOG",
+          "name": "Alphabet Inc Class C",
+          "weight": 1.7
+        },
+        {
+          "symbol": "META",
+          "name": "Meta Platforms Inc Class A",
+          "weight": 1.35
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla Inc",
+          "weight": 1.2
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 1.62
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 9.09
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 3.62
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 4.57
+        },
+        {
+          "sector": "Technology",
+          "weight": 32.84
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 8.54
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 15.35
+        },
+        {
+          "sector": "Utilities",
+          "weight": 2.39
+        },
+        {
+          "sector": "Industrials",
+          "weight": 10.37
+        },
+        {
+          "sector": "Energy",
+          "weight": 3.77
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 7.85
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.0480164,
+        "3M": 0.0761054,
+        "1Y": 0.3019481,
+        "3Y": 0.2224938,
+        "5Y": 0.1147025
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "iShares MSCI ACWI ETF (ACWI) is an equity ETF."
+    },
+    {
+      "ticker": "XLK",
+      "name": "State Street Technology Select Sector SPDR ETF",
+      "issuer": "State Street Investment Management",
+      "assetClass": "Equity",
+      "risk": 4,
+      "riskLabel": "Moderately Aggressive",
+      "expenseRatio": 0.0008,
+      "aum": 124515713024,
+      "inceptionDate": "1998-12-16",
+      "dividendYield": 0.004,
+      "stdDev": 0.2056,
+      "beta": 1.42,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA Corp",
+          "weight": 13.07
+        },
+        {
+          "symbol": "AAPL",
+          "name": "Apple Inc",
+          "weight": 11.67
+        },
+        {
+          "symbol": "MSFT",
+          "name": "Microsoft Corp",
+          "weight": 8.52
+        },
+        {
+          "symbol": "MU",
+          "name": "Micron Technology Inc",
+          "weight": 6.78
+        },
+        {
+          "symbol": "AVGO",
+          "name": "Broadcom Inc",
+          "weight": 5.4
+        },
+        {
+          "symbol": "AMD",
+          "name": "Advanced Micro Devices Inc",
+          "weight": 5.22
+        },
+        {
+          "symbol": "INTC",
+          "name": "Intel Corp",
+          "weight": 3.34
+        },
+        {
+          "symbol": "CSCO",
+          "name": "Cisco Systems Inc",
+          "weight": 2.95
+        },
+        {
+          "symbol": "LRCX",
+          "name": "Lam Research Corp",
+          "weight": 2.47
+        },
+        {
+          "symbol": "ORCL",
+          "name": "Oracle Corp",
+          "weight": 2.38
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Technology",
+          "weight": 98.97
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 1.03
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.1979768,
+        "3M": 0.3781383,
+        "1Y": 0.6624527,
+        "3Y": 0.3343552,
+        "5Y": 0.234624
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "State Street Technology Select Sector SPDR ETF (XLK) is an equity ETF."
+    },
+    {
+      "ticker": "VGT",
+      "name": "Vanguard Information Technology Index Fund ETF Shares",
+      "issuer": "Vanguard",
+      "assetClass": "Equity",
+      "risk": 4,
+      "riskLabel": "Moderately Aggressive",
+      "expenseRatio": 0.00090000004,
+      "aum": 170097295360,
+      "inceptionDate": "2004-01-26",
+      "dividendYield": 0.0032,
+      "stdDev": 0.2069,
+      "beta": 1.42,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA Corp",
+          "weight": 16.78
+        },
+        {
+          "symbol": "AAPL",
+          "name": "Apple Inc",
+          "weight": 15.26
+        },
+        {
+          "symbol": "MSFT",
+          "name": "Microsoft Corp",
+          "weight": 9.87
+        },
+        {
+          "symbol": "AVGO",
+          "name": "Broadcom Inc",
+          "weight": 4.49
+        },
+        {
+          "symbol": "MU",
+          "name": "Micron Technology Inc",
+          "weight": 4.19
+        },
+        {
+          "symbol": "AMD",
+          "name": "Advanced Micro Devices Inc",
+          "weight": 3.2
+        },
+        {
+          "symbol": "INTC",
+          "name": "Intel Corp",
+          "weight": 1.95
+        },
+        {
+          "symbol": "CSCO",
+          "name": "Cisco Systems Inc",
+          "weight": 1.85
+        },
+        {
+          "symbol": "LRCX",
+          "name": "Lam Research Corp",
+          "weight": 1.55
+        },
+        {
+          "symbol": "ORCL",
+          "name": "Oracle Corp",
+          "weight": 1.45
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 0.08
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 0.02
+        },
+        {
+          "sector": "Technology",
+          "weight": 98.49
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 0.58
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 0.5
+        },
+        {
+          "sector": "Industrials",
+          "weight": 0.32
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 0.01
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.1731925,
+        "3M": 0.33437753,
+        "1Y": 0.6027823,
+        "3Y": 0.3321806,
+        "5Y": 0.21894039
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "Vanguard Information Technology Index Fund ETF Shares (VGT) is an equity ETF."
+    },
+    {
+      "ticker": "XLF",
+      "name": "State Street Financial Select Sector SPDR ETF",
+      "issuer": "State Street Investment Management",
+      "assetClass": "Equity",
+      "risk": 4,
+      "riskLabel": "Moderately Aggressive",
+      "expenseRatio": 0.0008,
+      "aum": 49419214848,
+      "inceptionDate": "1998-12-16",
+      "dividendYield": 0.0154,
+      "stdDev": 0.1981,
+      "beta": 0.79,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "BRK-B",
+          "name": "Berkshire Hathaway Inc Class B",
+          "weight": 11.83
+        },
+        {
+          "symbol": "JPM",
+          "name": "JPMorgan Chase & Co",
+          "weight": 10.98
+        },
+        {
+          "symbol": "V",
+          "name": "Visa Inc Class A",
+          "weight": 7.46
+        },
+        {
+          "symbol": "MA",
+          "name": "Mastercard Inc Class A",
+          "weight": 5.47
+        },
+        {
+          "symbol": "BAC",
+          "name": "Bank of America Corp",
+          "weight": 4.66
+        },
+        {
+          "symbol": "GS",
+          "name": "The Goldman Sachs Group Inc",
+          "weight": 4.18
+        },
+        {
+          "symbol": "MS",
+          "name": "Morgan Stanley",
+          "weight": 3.4
+        },
+        {
+          "symbol": "WFC",
+          "name": "Wells Fargo & Co",
+          "weight": 3.26
+        },
+        {
+          "symbol": "C",
+          "name": "Citigroup Inc",
+          "weight": 2.99
+        },
+        {
+          "symbol": "AXP",
+          "name": "American Express Co",
+          "weight": 2.31
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Technology",
+          "weight": 1.76
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 97.99
+        },
+        {
+          "sector": "Industrials",
+          "weight": 0.24
+        }
+      ],
+      "trailingReturns": {
+        "1M": -0.010657,
+        "3M": 0.0073856004,
+        "1Y": 0.0279758,
+        "3Y": 0.19460711,
+        "5Y": 0.0817319
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "State Street Financial Select Sector SPDR ETF (XLF) is an equity ETF."
+    },
+    {
+      "ticker": "XLE",
+      "name": "State Street Energy Select Sector SPDR ETF",
+      "issuer": "State Street Investment Management",
+      "assetClass": "Equity",
+      "risk": 5,
+      "riskLabel": "Aggressive",
+      "expenseRatio": 0.0008,
+      "aum": 38671941632,
+      "inceptionDate": "1998-12-16",
+      "dividendYield": 0.026500002,
+      "stdDev": 0.3048,
+      "beta": null,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "XOM",
+          "name": "Exxon Mobil Corp",
+          "weight": 22.12
+        },
+        {
+          "symbol": "CVX",
+          "name": "Chevron Corp",
+          "weight": 16.6
+        },
+        {
+          "symbol": "COP",
+          "name": "ConocoPhillips",
+          "weight": 6.78
+        },
+        {
+          "symbol": "SLB",
+          "name": "SLB Ltd",
+          "weight": 4.69
+        },
+        {
+          "symbol": "WMB",
+          "name": "Williams Companies Inc",
+          "weight": 4.33
+        },
+        {
+          "symbol": "VLO",
+          "name": "Valero Energy Corp",
+          "weight": 4.3
+        },
+        {
+          "symbol": "MPC",
+          "name": "Marathon Petroleum Corp",
+          "weight": 4.22
+        },
+        {
+          "symbol": "EOG",
+          "name": "EOG Resources Inc",
+          "weight": 4.16
+        },
+        {
+          "symbol": "PSX",
+          "name": "Phillips 66",
+          "weight": 4.08
+        },
+        {
+          "symbol": "BKR",
+          "name": "Baker Hughes Co Class A",
+          "weight": 3.63
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Energy",
+          "weight": 100
+        }
+      ],
+      "trailingReturns": {
+        "1M": -0.0557689,
+        "3M": 0.0136905005,
+        "1Y": 0.42396018,
+        "3Y": 0.17469111,
+        "5Y": 0.2099237
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "State Street Energy Select Sector SPDR ETF (XLE) is an equity ETF."
+    },
+    {
+      "ticker": "XLV",
+      "name": "State Street Health Care Select Sector SPDR ETF",
+      "issuer": "State Street Investment Management",
+      "assetClass": "Equity",
+      "risk": 3,
+      "riskLabel": "Moderate",
+      "expenseRatio": 0.0008,
+      "aum": 38248288256,
+      "inceptionDate": "1998-12-16",
+      "dividendYield": 0.0168,
+      "stdDev": 0.1462,
+      "beta": 0.56,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "LLY",
+          "name": "Eli Lilly and Co",
+          "weight": 16.18
+        },
+        {
+          "symbol": "JNJ",
+          "name": "Johnson & Johnson",
+          "weight": 10.03
+        },
+        {
+          "symbol": "ABBV",
+          "name": "AbbVie Inc",
+          "weight": 7.11
+        },
+        {
+          "symbol": "UNH",
+          "name": "UnitedHealth Group Inc",
+          "weight": 6.37
+        },
+        {
+          "symbol": "MRK",
+          "name": "Merck & Co Inc",
+          "weight": 5.45
+        },
+        {
+          "symbol": "TMO",
+          "name": "Thermo Fisher Scientific Inc",
+          "weight": 3.42
+        },
+        {
+          "symbol": "AMGN",
+          "name": "Amgen Inc",
+          "weight": 3.35
+        },
+        {
+          "symbol": "GILD",
+          "name": "Gilead Sciences Inc",
+          "weight": 3.08
+        },
+        {
+          "symbol": "ISRG",
+          "name": "Intuitive Surgical Inc",
+          "weight": 2.79
+        },
+        {
+          "symbol": "PFE",
+          "name": "Pfizer Inc",
+          "weight": 2.75
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Healthcare",
+          "weight": 100
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.024713399,
+        "3M": -0.0627395,
+        "1Y": 0.1466835,
+        "3Y": 0.0715148,
+        "5Y": 0.055738702
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "State Street Health Care Select Sector SPDR ETF (XLV) is an equity ETF."
+    },
+    {
+      "ticker": "VHT",
+      "name": "Vanguard Health Care Index Fund ETF Shares",
+      "issuer": "Vanguard",
+      "assetClass": "Equity",
+      "risk": 3,
+      "riskLabel": "Moderate",
+      "expenseRatio": 0.00090000004,
+      "aum": 18986551296,
+      "inceptionDate": "2004-01-26",
+      "dividendYield": 0.0168,
+      "stdDev": 0.1475,
+      "beta": 0.62,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "LLY",
+          "name": "Eli Lilly and Co",
+          "weight": 13.99
+        },
+        {
+          "symbol": "JNJ",
+          "name": "Johnson & Johnson",
+          "weight": 8.44
+        },
+        {
+          "symbol": "ABBV",
+          "name": "AbbVie Inc",
+          "weight": 6.07
+        },
+        {
+          "symbol": "UNH",
+          "name": "UnitedHealth Group Inc",
+          "weight": 5.44
+        },
+        {
+          "symbol": "MRK",
+          "name": "Merck & Co Inc",
+          "weight": 4.63
+        },
+        {
+          "symbol": "TMO",
+          "name": "Thermo Fisher Scientific Inc",
+          "weight": 2.88
+        },
+        {
+          "symbol": "AMGN",
+          "name": "Amgen Inc",
+          "weight": 2.86
+        },
+        {
+          "symbol": "GILD",
+          "name": "Gilead Sciences Inc",
+          "weight": 2.63
+        },
+        {
+          "symbol": "ISRG",
+          "name": "Intuitive Surgical Inc",
+          "weight": 2.38
+        },
+        {
+          "symbol": "ABT",
+          "name": "Abbott Laboratories",
+          "weight": 2.35
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Technology",
+          "weight": 0.01
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 0.03
+        },
+        {
+          "sector": "Industrials",
+          "weight": 0.01
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 99.95
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.0264607,
+        "3M": -0.0502849,
+        "1Y": 0.16741659,
+        "3Y": 0.075012796,
+        "5Y": 0.0463834
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "Vanguard Health Care Index Fund ETF Shares (VHT) is an equity ETF."
+    },
+    {
+      "ticker": "XLY",
+      "name": "State Street Consumer Discretionary Select Sector SPDR ETF",
+      "issuer": "State Street Investment Management",
+      "assetClass": "Equity",
+      "risk": 4,
+      "riskLabel": "Moderately Aggressive",
+      "expenseRatio": 0.0008,
+      "aum": 23781842944,
+      "inceptionDate": "1998-12-16",
+      "dividendYield": 0.0074,
+      "stdDev": 0.2032,
+      "beta": 1.18,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "AMZN",
+          "name": "Amazon.com Inc",
+          "weight": 27.56
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla Inc",
+          "weight": 20.04
+        },
+        {
+          "symbol": "HD",
+          "name": "The Home Depot Inc",
+          "weight": 5.16
+        },
+        {
+          "symbol": "TJX",
+          "name": "TJX Companies Inc",
+          "weight": 3.85
+        },
+        {
+          "symbol": "MCD",
+          "name": "McDonald's Corp",
+          "weight": 3.64
+        },
+        {
+          "symbol": "BKNG",
+          "name": "Booking Holdings Inc",
+          "weight": 3.03
+        },
+        {
+          "symbol": "LOW",
+          "name": "Lowe's Companies Inc",
+          "weight": 2.7
+        },
+        {
+          "symbol": "SBUX",
+          "name": "Starbucks Corp",
+          "weight": 2.53
+        },
+        {
+          "symbol": "MAR",
+          "name": "Marriott International Inc Class A",
+          "weight": 1.85
+        },
+        {
+          "symbol": "GM",
+          "name": "General Motors Co",
+          "weight": 1.69
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 99.01
+        },
+        {
+          "sector": "Technology",
+          "weight": 0.86
+        },
+        {
+          "sector": "Industrials",
+          "weight": 0.13
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.021758102,
+        "3M": 0.0365226,
+        "1Y": 0.1385784,
+        "3Y": 0.1778215,
+        "5Y": 0.0782085
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "State Street Consumer Discretionary Select Sector SPDR ETF (XLY) is an equity ETF."
+    },
+    {
+      "ticker": "XLP",
+      "name": "State Street Consumer Staples Select Sector SPDR ETF",
+      "issuer": "State Street Investment Management",
+      "assetClass": "Equity",
+      "risk": 3,
+      "riskLabel": "Moderate",
+      "expenseRatio": 0.0008,
+      "aum": 14855075840,
+      "inceptionDate": "1998-12-16",
+      "dividendYield": 0.026199998,
+      "stdDev": 0.1333,
+      "beta": 0.54,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "WMT",
+          "name": "Walmart Inc",
+          "weight": 10.83
+        },
+        {
+          "symbol": "COST",
+          "name": "Costco Wholesale Corp",
+          "weight": 9.06
+        },
+        {
+          "symbol": "PG",
+          "name": "Procter & Gamble Co",
+          "weight": 7.12
+        },
+        {
+          "symbol": "KO",
+          "name": "Coca-Cola Co",
+          "weight": 6.53
+        },
+        {
+          "symbol": "PM",
+          "name": "Philip Morris International Inc",
+          "weight": 5.9
+        },
+        {
+          "symbol": "MDLZ",
+          "name": "Mondelez International Inc Class A",
+          "weight": 4.99
+        },
+        {
+          "symbol": "MO",
+          "name": "Altria Group Inc",
+          "weight": 4.74
+        },
+        {
+          "symbol": "CL",
+          "name": "Colgate-Palmolive Co",
+          "weight": 4.55
+        },
+        {
+          "symbol": "PEP",
+          "name": "PepsiCo Inc",
+          "weight": 4.21
+        },
+        {
+          "symbol": "MNST",
+          "name": "Monster Beverage Corp",
+          "weight": 4.16
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 0.96
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 99.04
+        }
+      ],
+      "trailingReturns": {
+        "1M": -0.0160527,
+        "3M": -0.0733973,
+        "1Y": 0.028425401,
+        "3Y": 0.0739088,
+        "5Y": 0.0596532
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "State Street Consumer Staples Select Sector SPDR ETF (XLP) is an equity ETF."
+    },
+    {
+      "ticker": "XLI",
+      "name": "State Street Industrial Select Sector SPDR ETF",
+      "issuer": "State Street Investment Management",
+      "assetClass": "Equity",
+      "risk": 4,
+      "riskLabel": "Moderately Aggressive",
+      "expenseRatio": 0.0008,
+      "aum": 30217220096,
+      "inceptionDate": "1998-12-16",
+      "dividendYield": 0.0117999995,
+      "stdDev": 0.1918,
+      "beta": 1.09,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "CAT",
+          "name": "Caterpillar Inc",
+          "weight": 7.55
+        },
+        {
+          "symbol": "GE",
+          "name": "GE Aerospace",
+          "weight": 6.29
+        },
+        {
+          "symbol": "GEV",
+          "name": "GE Vernova Inc",
+          "weight": 4.84
+        },
+        {
+          "symbol": "RTX",
+          "name": "RTX Corp",
+          "weight": 4.47
+        },
+        {
+          "symbol": "BA",
+          "name": "Boeing Co",
+          "weight": 3.36
+        },
+        {
+          "symbol": "UNP",
+          "name": "Union Pacific Corp",
+          "weight": 2.89
+        },
+        {
+          "symbol": "ETN",
+          "name": "Eaton Corp PLC",
+          "weight": 2.88
+        },
+        {
+          "symbol": "HON",
+          "name": "Honeywell International Inc",
+          "weight": 2.8
+        },
+        {
+          "symbol": "UBER",
+          "name": "Uber Technologies Inc",
+          "weight": 2.68
+        },
+        {
+          "symbol": "DE",
+          "name": "Deere & Co",
+          "weight": 2.53
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 0.26
+        },
+        {
+          "sector": "Technology",
+          "weight": 5.91
+        },
+        {
+          "sector": "Industrials",
+          "weight": 93.84
+        }
+      ],
+      "trailingReturns": {
+        "1M": -0.0081884,
+        "3M": -0.020037899,
+        "1Y": 0.2277482,
+        "3Y": 0.2319516,
+        "5Y": 0.121912606
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "State Street Industrial Select Sector SPDR ETF (XLI) is an equity ETF."
+    },
+    {
+      "ticker": "XLB",
+      "name": "State Street Materials Select Sector SPDR ETF",
+      "issuer": "State Street Investment Management",
+      "assetClass": "Equity",
+      "risk": 4,
+      "riskLabel": "Moderately Aggressive",
+      "expenseRatio": 0.0008,
+      "aum": 7313517056,
+      "inceptionDate": "1998-12-16",
+      "dividendYield": 0.0171,
+      "stdDev": 0.1877,
+      "beta": 0.88,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "LIN",
+          "name": "Linde PLC",
+          "weight": 14.15
+        },
+        {
+          "symbol": "NEM",
+          "name": "Newmont Corp",
+          "weight": 7.29
+        },
+        {
+          "symbol": "NUE",
+          "name": "Nucor Corp",
+          "weight": 6.35
+        },
+        {
+          "symbol": "FCX",
+          "name": "Freeport-McMoRan Inc",
+          "weight": 5.75
+        },
+        {
+          "symbol": "VMC",
+          "name": "Vulcan Materials Co",
+          "weight": 4.58
+        },
+        {
+          "symbol": "CRH",
+          "name": "CRH PLC",
+          "weight": 4.56
+        },
+        {
+          "symbol": "APD",
+          "name": "Air Products and Chemicals Inc",
+          "weight": 4.38
+        },
+        {
+          "symbol": "STLD",
+          "name": "Steel Dynamics Inc",
+          "weight": 4.37
+        },
+        {
+          "symbol": "CTVA",
+          "name": "Corteva Inc",
+          "weight": 4.34
+        },
+        {
+          "symbol": "SHW",
+          "name": "Sherwin-Williams Co",
+          "weight": 4.26
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 12.74
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 87.26
+        }
+      ],
+      "trailingReturns": {
+        "1M": -0.0057062,
+        "3M": -0.0379694,
+        "1Y": 0.2079969,
+        "3Y": 0.1308988,
+        "5Y": 0.0531233
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "State Street Materials Select Sector SPDR ETF (XLB) is an equity ETF."
+    },
+    {
+      "ticker": "XLU",
+      "name": "State Street Utilities Select Sector SPDR ETF",
+      "issuer": "State Street Investment Management",
+      "assetClass": "Equity",
+      "risk": 3,
+      "riskLabel": "Moderate",
+      "expenseRatio": 0.0008,
+      "aum": 22354980864,
+      "inceptionDate": "1998-12-16",
+      "dividendYield": 0.026800001,
+      "stdDev": 0.1564,
+      "beta": 0.49,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "NEE",
+          "name": "NextEra Energy Inc",
+          "weight": 13.19
+        },
+        {
+          "symbol": "SO",
+          "name": "Southern Co",
+          "weight": 7.37
+        },
+        {
+          "symbol": "DUK",
+          "name": "Duke Energy Corp",
+          "weight": 6.94
+        },
+        {
+          "symbol": "CEG",
+          "name": "Constellation Energy Corp",
+          "weight": 6.52
+        },
+        {
+          "symbol": "AEP",
+          "name": "American Electric Power Co Inc",
+          "weight": 4.98
+        },
+        {
+          "symbol": "SRE",
+          "name": "Sempra",
+          "weight": 4.23
+        },
+        {
+          "symbol": "D",
+          "name": "Dominion Energy Inc",
+          "weight": 4.16
+        },
+        {
+          "symbol": "VST",
+          "name": "Vistra Corp",
+          "weight": 3.71
+        },
+        {
+          "symbol": "ETR",
+          "name": "Entergy Corp",
+          "weight": 3.59
+        },
+        {
+          "symbol": "XEL",
+          "name": "Xcel Energy Inc",
+          "weight": 3.42
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Utilities",
+          "weight": 100
+        }
+      ],
+      "trailingReturns": {
+        "1M": -0.0514288,
+        "3M": -0.062790796,
+        "1Y": 0.114622205,
+        "3Y": 0.1445747,
+        "5Y": 0.096765496
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "State Street Utilities Select Sector SPDR ETF (XLU) is an equity ETF."
+    },
+    {
+      "ticker": "XLC",
+      "name": "State Street Communication Services Select Sector SPDR ETF",
+      "issuer": "State Street Investment Management",
+      "assetClass": "Equity",
+      "risk": 4,
+      "riskLabel": "Moderately Aggressive",
+      "expenseRatio": 0.0008,
+      "aum": 25115598848,
+      "inceptionDate": "2018-06-18",
+      "dividendYield": 0.0121,
+      "stdDev": 0.1935,
+      "beta": 0.81,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "META",
+          "name": "Meta Platforms Inc Class A",
+          "weight": 14.02
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Alphabet Inc Class A",
+          "weight": 9.82
+        },
+        {
+          "symbol": "GOOG",
+          "name": "Alphabet Inc Class C",
+          "weight": 7.81
+        },
+        {
+          "symbol": "TTWO",
+          "name": "Take-Two Interactive Software Inc",
+          "weight": 4.88
+        },
+        {
+          "symbol": "LYV",
+          "name": "Live Nation Entertainment Inc",
+          "weight": 4.76
+        },
+        {
+          "symbol": "ECHO",
+          "name": "EchoStar Corp Class A",
+          "weight": 4.62
+        },
+        {
+          "symbol": "DIS",
+          "name": "The Walt Disney Co",
+          "weight": 4.53
+        },
+        {
+          "symbol": "WBD",
+          "name": "Warner Bros. Discovery Inc Ordinary Shares - Class A",
+          "weight": 4.19
+        },
+        {
+          "symbol": "EA",
+          "name": "Electronic Arts Inc",
+          "weight": 4.18
+        },
+        {
+          "symbol": "OMC",
+          "name": "Omnicom Group Inc",
+          "weight": 4.05
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Communication Services",
+          "weight": 100
+        }
+      ],
+      "trailingReturns": {
+        "1M": -0.0065692,
+        "3M": -0.016910799,
+        "1Y": 0.1546085,
+        "3Y": 0.24314159,
+        "5Y": 0.090958595
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "State Street Communication Services Select Sector SPDR ETF (XLC) is an equity ETF."
+    },
+    {
+      "ticker": "SOXX",
+      "name": "iShares Semiconductor ETF",
+      "issuer": "iShares",
+      "assetClass": "Equity",
+      "risk": 5,
+      "riskLabel": "Aggressive",
+      "expenseRatio": 0.0034,
+      "aum": 38373490688,
+      "inceptionDate": "2001-07-10",
+      "dividendYield": 0.0029,
+      "stdDev": 0.2864,
+      "beta": 2.26,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "MU",
+          "name": "Micron Technology Inc",
+          "weight": 11.62
+        },
+        {
+          "symbol": "AMD",
+          "name": "Advanced Micro Devices Inc",
+          "weight": 9.49
+        },
+        {
+          "symbol": "AVGO",
+          "name": "Broadcom Inc",
+          "weight": 6.9
+        },
+        {
+          "symbol": "INTC",
+          "name": "Intel Corp",
+          "weight": 6.2
+        },
+        {
+          "symbol": "MRVL",
+          "name": "Marvell Technology Inc",
+          "weight": 6.19
+        },
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA Corp",
+          "weight": 5.88
+        },
+        {
+          "symbol": "AMAT",
+          "name": "Applied Materials Inc",
+          "weight": 4.45
+        },
+        {
+          "symbol": "QCOM",
+          "name": "Qualcomm Inc",
+          "weight": 4.35
+        },
+        {
+          "symbol": "TXN",
+          "name": "Texas Instruments Inc",
+          "weight": 3.56
+        },
+        {
+          "symbol": "NXPI",
+          "name": "NXP Semiconductors NV",
+          "weight": 3.49
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Technology",
+          "weight": 100
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.2324496,
+        "3M": 0.61652327,
+        "1Y": 1.7948885,
+        "3Y": 0.5405953,
+        "5Y": 0.3264186
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "iShares Semiconductor ETF (SOXX) is an equity ETF."
+    },
+    {
+      "ticker": "SMH",
+      "name": "VanEck Semiconductor ETF",
+      "issuer": "VanEck",
+      "assetClass": "Equity",
+      "risk": 5,
+      "riskLabel": "Aggressive",
+      "expenseRatio": 0.0034999999,
+      "aum": 67822489600,
+      "inceptionDate": "2011-12-20",
+      "dividendYield": 0.0018000001,
+      "stdDev": 0.2751,
+      "beta": 1.97,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA Corp",
+          "weight": 15.23
+        },
+        {
+          "symbol": "TSM",
+          "name": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
+          "weight": 9.38
+        },
+        {
+          "symbol": "MU",
+          "name": "Micron Technology Inc",
+          "weight": 7.78
+        },
+        {
+          "symbol": "AMD",
+          "name": "Advanced Micro Devices Inc",
+          "weight": 7.61
+        },
+        {
+          "symbol": "INTC",
+          "name": "Intel Corp",
+          "weight": 7.22
+        },
+        {
+          "symbol": "AVGO",
+          "name": "Broadcom Inc",
+          "weight": 7.2
+        },
+        {
+          "symbol": "QCOM",
+          "name": "Qualcomm Inc",
+          "weight": 5.1
+        },
+        {
+          "symbol": "TXN",
+          "name": "Texas Instruments Inc",
+          "weight": 4.65
+        },
+        {
+          "symbol": "LRCX",
+          "name": "Lam Research Corp",
+          "weight": 4.39
+        },
+        {
+          "symbol": "KLAC",
+          "name": "KLA Corp",
+          "weight": 3.96
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Technology",
+          "weight": 100
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.18163161,
+        "3M": 0.4741806,
+        "1Y": 1.5063155,
+        "3Y": 0.6146649,
+        "5Y": 0.3772996
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "VanEck Semiconductor ETF (SMH) is an equity ETF."
+    },
+    {
+      "ticker": "ARKK",
+      "name": "ARK Innovation ETF",
+      "issuer": "ARK ETF Trust",
+      "assetClass": "Equity",
+      "risk": 5,
+      "riskLabel": "Aggressive",
+      "expenseRatio": 0.0075,
+      "aum": 7262198784,
+      "inceptionDate": "2014-10-31",
+      "dividendYield": 0,
+      "stdDev": 0.3743,
+      "beta": 2.44,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "TSLA",
+          "name": "Tesla Inc",
+          "weight": 10.27
+        },
+        {
+          "symbol": "AMD",
+          "name": "Advanced Micro Devices Inc",
+          "weight": 5.51
+        },
+        {
+          "symbol": "HOOD",
+          "name": "Robinhood Markets Inc Class A",
+          "weight": 5.14
+        },
+        {
+          "symbol": "CRSP",
+          "name": "CRISPR Therapeutics AG",
+          "weight": 4.94
+        },
+        {
+          "symbol": "TEM",
+          "name": "Tempus AI Inc Class A common stock",
+          "weight": 4.78
+        },
+        {
+          "symbol": "CRCL",
+          "name": "Circle Internet Group Inc Ordinary Shares - Class A",
+          "weight": 4.46
+        },
+        {
+          "symbol": "SHOP",
+          "name": "Shopify Inc Registered Shs -A- Subord Vtg",
+          "weight": 4.37
+        },
+        {
+          "symbol": "ROKU",
+          "name": "Roku Inc Class A",
+          "weight": 4.17
+        },
+        {
+          "symbol": "COIN",
+          "name": "Coinbase Global Inc Ordinary Shares - Class A",
+          "weight": 3.93
+        },
+        {
+          "symbol": "PLTR",
+          "name": "Palantir Technologies Inc Ordinary Shares - Class A",
+          "weight": 3.26
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 14.07
+        },
+        {
+          "sector": "Technology",
+          "weight": 25.91
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 9.99
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 16.23
+        },
+        {
+          "sector": "Industrials",
+          "weight": 5.72
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 28.08
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.0823452,
+        "3M": 0.1233605,
+        "1Y": 0.4554397,
+        "3Y": 0.2650556,
+        "5Y": -0.058918
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "ARK Innovation ETF (ARKK) is an equity ETF."
+    },
+    {
+      "ticker": "IJR",
+      "name": "iShares Core S&P Small-Cap ETF",
+      "issuer": "iShares",
+      "assetClass": "Equity",
+      "risk": 4,
+      "riskLabel": "Moderately Aggressive",
+      "expenseRatio": 0.00059999997,
+      "aum": 103489478656,
+      "inceptionDate": "2000-05-22",
+      "dividendYield": 0.0115,
+      "stdDev": 0.2121,
+      "beta": 1.14,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "XTSLA",
+          "name": "BlackRock Cash Funds Treasury SL Agency",
+          "weight": 1.69
+        },
+        {
+          "symbol": "SANM",
+          "name": "Sanmina Corp",
+          "weight": 0.83
+        },
+        {
+          "symbol": "SMTC",
+          "name": "Semtech Corp",
+          "weight": 0.83
+        },
+        {
+          "symbol": "VIAV",
+          "name": "Viavi Solutions Inc",
+          "weight": 0.66
+        },
+        {
+          "symbol": "VSAT",
+          "name": "Viasat Inc",
+          "weight": 0.64
+        },
+        {
+          "symbol": "LUMN",
+          "name": "Lumen Technologies Inc Ordinary Shares",
+          "weight": 0.61
+        },
+        {
+          "symbol": "FORM",
+          "name": "FormFactor Inc",
+          "weight": 0.57
+        },
+        {
+          "symbol": "ESI",
+          "name": "Element Solutions Inc",
+          "weight": 0.56
+        },
+        {
+          "symbol": "AGX",
+          "name": "Argan Inc",
+          "weight": 0.54
+        },
+        {
+          "symbol": "ENPH",
+          "name": "Enphase Energy Inc",
+          "weight": 0.52
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 7.53
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 13.06
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 4.97
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 3.6
+        },
+        {
+          "sector": "Technology",
+          "weight": 17.29
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 3.64
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 16.51
+        },
+        {
+          "sector": "Utilities",
+          "weight": 1.9
+        },
+        {
+          "sector": "Industrials",
+          "weight": 15.13
+        },
+        {
+          "sector": "Energy",
+          "weight": 5.4
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 10.98
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.0104693,
+        "3M": 0.0704132,
+        "1Y": 0.3325897,
+        "3Y": 0.1631843,
+        "5Y": 0.0586978
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "iShares Core S&P Small-Cap ETF (IJR) is an equity ETF."
+    },
+    {
+      "ticker": "IJH",
+      "name": "iShares Core S&P Mid-Cap ETF",
+      "issuer": "iShares",
+      "assetClass": "Equity",
+      "risk": 4,
+      "riskLabel": "Moderately Aggressive",
+      "expenseRatio": 0.0005,
+      "aum": 119166820352,
+      "inceptionDate": "2000-05-22",
+      "dividendYield": 0.0119,
+      "stdDev": 0.1897,
+      "beta": 1.05,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "FLEX",
+          "name": "Flex Ltd",
+          "weight": 1.58
+        },
+        {
+          "symbol": "TWLO",
+          "name": "Twilio Inc Class A",
+          "weight": 0.82
+        },
+        {
+          "symbol": "FTI",
+          "name": "TechnipFMC PLC",
+          "weight": 0.79
+        },
+        {
+          "symbol": "CW",
+          "name": "Curtiss-Wright Corp",
+          "weight": 0.78
+        },
+        {
+          "symbol": "NVT",
+          "name": "nVent Electric PLC",
+          "weight": 0.77
+        },
+        {
+          "symbol": "STRL",
+          "name": "Sterling Infrastructure Inc",
+          "weight": 0.75
+        },
+        {
+          "symbol": "XPO",
+          "name": "XPO Inc",
+          "weight": 0.71
+        },
+        {
+          "symbol": "P",
+          "name": "Everpure Inc Class A",
+          "weight": 0.71
+        },
+        {
+          "symbol": "ILMN",
+          "name": "Illumina Inc",
+          "weight": 0.71
+        },
+        {
+          "symbol": "UTHR",
+          "name": "United Therapeutics Corp",
+          "weight": 0.68
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 7.32
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 10.56
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 4.82
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 3.31
+        },
+        {
+          "sector": "Technology",
+          "weight": 17.77
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 0.96
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 13.78
+        },
+        {
+          "sector": "Utilities",
+          "weight": 2.94
+        },
+        {
+          "sector": "Industrials",
+          "weight": 24.67
+        },
+        {
+          "sector": "Energy",
+          "weight": 4.92
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 8.97
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.0245069,
+        "3M": 0.0454584,
+        "1Y": 0.2582101,
+        "3Y": 0.1739953,
+        "5Y": 0.0803683
+      },
+      "assetBreakdown": {
+        "Equity": 100
+      },
+      "overview": "iShares Core S&P Mid-Cap ETF (IJH) is an equity ETF."
+    },
+    {
+      "ticker": "BND",
+      "name": "Vanguard Total Bond Market Index Fund",
+      "issuer": "Vanguard",
+      "assetClass": "Bond",
+      "risk": 2,
+      "riskLabel": "Moderately Conservative",
+      "expenseRatio": 0.00029999999,
+      "aum": 394429661184,
+      "inceptionDate": "2007-04-03",
+      "dividendYield": 0.0394,
+      "stdDev": 0.0516,
+      "beta": 0.98,
+      "numberOfHoldings": null,
+      "topHoldings": [],
+      "sectorWeights": [],
+      "trailingReturns": {
+        "1M": 0.0030245,
+        "3M": -0.0129151,
+        "1Y": 0.0503795,
+        "3Y": 0.0395008,
+        "5Y": 0.001884
+      },
+      "assetBreakdown": {
+        "Bond": 100
+      },
+      "overview": "Vanguard Total Bond Market Index Fund (BND) is a bond ETF."
+    },
+    {
+      "ticker": "AGG",
+      "name": "iShares Core U.S. Aggregate Bond ETF",
+      "issuer": "iShares",
+      "assetClass": "Bond",
+      "risk": 2,
+      "riskLabel": "Moderately Conservative",
+      "expenseRatio": 0.00029999999,
+      "aum": 136455700480,
+      "inceptionDate": "2003-09-22",
+      "dividendYield": 0.0396,
+      "stdDev": 0.0513,
+      "beta": 0.99,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "BISXX",
+          "name": "BlackRock Cash Funds Instl SL Agency",
+          "weight": 2.77
+        }
+      ],
+      "sectorWeights": [],
+      "trailingReturns": {
+        "1M": 0.0029718,
+        "3M": -0.0133409,
+        "1Y": 0.0513422,
+        "3Y": 0.0394596,
+        "5Y": 0.0017905
+      },
+      "assetBreakdown": {
+        "Bond": 100
+      },
+      "overview": "iShares Core U.S. Aggregate Bond ETF (AGG) is a bond ETF."
+    },
+    {
+      "ticker": "BNDX",
+      "name": "Vanguard Total International Bond Index Fund",
+      "issuer": "Vanguard",
+      "assetClass": "Bond",
+      "risk": 1,
+      "riskLabel": "Conservative",
+      "expenseRatio": 0.0007,
+      "aum": 122032054272,
+      "inceptionDate": "2013-05-31",
+      "dividendYield": 0.0446,
+      "stdDev": 0.0468,
+      "beta": 0.62,
+      "numberOfHoldings": null,
+      "topHoldings": [],
+      "sectorWeights": [
+        {
+          "sector": "Technology",
+          "weight": 100
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.0092539005,
+        "3M": -0.0108857,
+        "1Y": 0.0227439,
+        "3Y": 0.041318897,
+        "5Y": 0.0047654
+      },
+      "assetBreakdown": {
+        "Bond": 100
+      },
+      "overview": "Vanguard Total International Bond Index Fund (BNDX) is a bond ETF."
+    },
+    {
+      "ticker": "TLT",
+      "name": "iShares 20+ Year Treasury Bond ETF",
+      "issuer": "iShares",
+      "assetClass": "Bond",
+      "risk": 3,
+      "riskLabel": "Moderate",
+      "expenseRatio": 0.0015,
+      "aum": 42895949824,
+      "inceptionDate": "2002-07-22",
+      "dividendYield": 0.045500003,
+      "stdDev": 0.135,
+      "beta": 2.38,
+      "numberOfHoldings": null,
+      "topHoldings": [],
+      "sectorWeights": [],
+      "trailingReturns": {
+        "1M": 0.0050767,
+        "3M": -0.0449066,
+        "1Y": 0.0389028,
+        "3Y": -0.0197915,
+        "5Y": -0.0608088
+      },
+      "assetBreakdown": {
+        "Bond": 100
+      },
+      "overview": "iShares 20+ Year Treasury Bond ETF (TLT) is a bond ETF."
+    },
+    {
+      "ticker": "IEF",
+      "name": "iShares 7-10 Year Treasury Bond ETF",
+      "issuer": "iShares",
+      "assetClass": "Bond",
+      "risk": 2,
+      "riskLabel": "Moderately Conservative",
+      "expenseRatio": 0.0015,
+      "aum": 48318722048,
+      "inceptionDate": "2002-07-22",
+      "dividendYield": 0.0387,
+      "stdDev": 0.0655,
+      "beta": 1.17,
+      "numberOfHoldings": null,
+      "topHoldings": [],
+      "sectorWeights": [],
+      "trailingReturns": {
+        "1M": -0.0005134,
+        "3M": -0.024876298,
+        "1Y": 0.0395623,
+        "3Y": 0.024210898,
+        "5Y": -0.0098863
+      },
+      "assetBreakdown": {
+        "Bond": 100
+      },
+      "overview": "iShares 7-10 Year Treasury Bond ETF (IEF) is a bond ETF."
+    },
+    {
+      "ticker": "SHY",
+      "name": "iShares 1-3 Year Treasury Bond ETF",
+      "issuer": "iShares",
+      "assetClass": "Bond",
+      "risk": 1,
+      "riskLabel": "Conservative",
+      "expenseRatio": 0.0015,
+      "aum": 25434476544,
+      "inceptionDate": "2002-07-22",
+      "dividendYield": 0.037100002,
+      "stdDev": 0.0154,
+      "beta": 0.23,
+      "numberOfHoldings": null,
+      "topHoldings": [],
+      "sectorWeights": [],
+      "trailingReturns": {
+        "1M": 0.000859,
+        "3M": -0.0019275001,
+        "1Y": 0.0333608,
+        "3Y": 0.0402494,
+        "5Y": 0.0173621
+      },
+      "assetBreakdown": {
+        "Bond": 100
+      },
+      "overview": "iShares 1-3 Year Treasury Bond ETF (SHY) is a bond ETF."
+    },
+    {
+      "ticker": "GOVT",
+      "name": "iShares U.S. Treasury Bond ETF",
+      "issuer": "iShares",
+      "assetClass": "Bond",
+      "risk": 1,
+      "riskLabel": "Conservative",
+      "expenseRatio": 0.0005,
+      "aum": 41892425728,
+      "inceptionDate": "2012-02-14",
+      "dividendYield": 0.0356,
+      "stdDev": 0.049,
+      "beta": 0.88,
+      "numberOfHoldings": null,
+      "topHoldings": [],
+      "sectorWeights": [],
+      "trailingReturns": {
+        "1M": 0.0008748,
+        "3M": -0.017116899,
+        "1Y": 0.0367965,
+        "3Y": 0.027892102,
+        "5Y": -0.0035914
+      },
+      "assetBreakdown": {
+        "Bond": 100
+      },
+      "overview": "iShares U.S. Treasury Bond ETF (GOVT) is a bond ETF."
+    },
+    {
+      "ticker": "LQD",
+      "name": "iShares iBoxx $ Investment Grade Corporate Bond ETF",
+      "issuer": "iShares",
+      "assetClass": "Bond",
+      "risk": 2,
+      "riskLabel": "Moderately Conservative",
+      "expenseRatio": 0.0014,
+      "aum": 29782712320,
+      "inceptionDate": "2002-07-22",
+      "dividendYield": 0.0452,
+      "stdDev": 0.0824,
+      "beta": 1.33,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "XTSLA",
+          "name": "BlackRock Cash Funds Treasury SL Agency",
+          "weight": 0.93
+        }
+      ],
+      "sectorWeights": [],
+      "trailingReturns": {
+        "1M": 0.0088314,
+        "3M": -0.0097586,
+        "1Y": 0.0626838,
+        "3Y": 0.051124603,
+        "5Y": 0.0008025
+      },
+      "assetBreakdown": {
+        "Bond": 100
+      },
+      "overview": "iShares iBoxx $ Investment Grade Corporate Bond ETF (LQD) is a bond ETF."
+    },
+    {
+      "ticker": "VCIT",
+      "name": "Vanguard Intermediate-Term Corporate Bond Index Fund ETF Shares",
+      "issuer": "Vanguard",
+      "assetClass": "Bond",
+      "risk": 2,
+      "riskLabel": "Moderately Conservative",
+      "expenseRatio": 0.00029999999,
+      "aum": 68725825536,
+      "inceptionDate": "2009-11-19",
+      "dividendYield": 0.0475,
+      "stdDev": 0.0676,
+      "beta": 1.07,
+      "numberOfHoldings": null,
+      "topHoldings": [],
+      "sectorWeights": [],
+      "trailingReturns": {
+        "1M": 0.0049227,
+        "3M": -0.010443401,
+        "1Y": 0.0639774,
+        "3Y": 0.0613323,
+        "5Y": 0.0133584
+      },
+      "assetBreakdown": {
+        "Bond": 100
+      },
+      "overview": "Vanguard Intermediate-Term Corporate Bond Index Fund ETF Shares (VCIT) is a bond ETF."
+    },
+    {
+      "ticker": "VCSH",
+      "name": "Vanguard Short-Term Corporate Bond Index Fund ETF Shares",
+      "issuer": "Vanguard",
+      "assetClass": "Bond",
+      "risk": 1,
+      "riskLabel": "Conservative",
+      "expenseRatio": 0.00029999999,
+      "aum": 50517524480,
+      "inceptionDate": "2009-11-19",
+      "dividendYield": 0.044299997,
+      "stdDev": 0.0294,
+      "beta": 0.41,
+      "numberOfHoldings": null,
+      "topHoldings": [],
+      "sectorWeights": [],
+      "trailingReturns": {
+        "1M": 0.0029199999,
+        "3M": -0.0018607,
+        "1Y": 0.04696,
+        "3Y": 0.0555653,
+        "5Y": 0.0236074
+      },
+      "assetBreakdown": {
+        "Bond": 100
+      },
+      "overview": "Vanguard Short-Term Corporate Bond Index Fund ETF Shares (VCSH) is a bond ETF."
+    },
+    {
+      "ticker": "HYG",
+      "name": "iShares iBoxx $ High Yield Corporate Bond ETF",
+      "issuer": "iShares",
+      "assetClass": "Bond",
+      "risk": 2,
+      "riskLabel": "Moderately Conservative",
+      "expenseRatio": 0.0049,
+      "aum": 16106322944,
+      "inceptionDate": "2007-04-04",
+      "dividendYield": 0.0584,
+      "stdDev": 0.0741,
+      "beta": 0.65,
+      "numberOfHoldings": null,
+      "topHoldings": [],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 0.41
+        },
+        {
+          "sector": "Utilities",
+          "weight": 99.59
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.0045286,
+        "3M": 0.0098851,
+        "1Y": 0.071437806,
+        "3Y": 0.09019551,
+        "5Y": 0.0388615
+      },
+      "assetBreakdown": {
+        "Bond": 100
+      },
+      "overview": "iShares iBoxx $ High Yield Corporate Bond ETF (HYG) is a bond ETF."
+    },
+    {
+      "ticker": "JNK",
+      "name": "State Street SPDR Bloomberg High Yield Bond ETF",
+      "issuer": "State Street Investment Management",
+      "assetClass": "Bond",
+      "risk": 2,
+      "riskLabel": "Moderately Conservative",
+      "expenseRatio": 0.004,
+      "aum": 7700293120,
+      "inceptionDate": "2007-11-28",
+      "dividendYield": 0.0659,
+      "stdDev": 0.0784,
+      "beta": 0.66,
+      "numberOfHoldings": null,
+      "topHoldings": [],
+      "sectorWeights": [
+        {
+          "sector": "Energy",
+          "weight": 100
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.0055136,
+        "3M": 0.0106542,
+        "1Y": 0.078577,
+        "3Y": 0.0914205,
+        "5Y": 0.0380259
+      },
+      "assetBreakdown": {
+        "Bond": 100
+      },
+      "overview": "State Street SPDR Bloomberg High Yield Bond ETF (JNK) is a bond ETF."
+    },
+    {
+      "ticker": "MUB",
+      "name": "iShares National Muni Bond ETF",
+      "issuer": "iShares",
+      "assetClass": "Bond",
+      "risk": 1,
+      "riskLabel": "Conservative",
+      "expenseRatio": 0.0005,
+      "aum": 44944617472,
+      "inceptionDate": "2007-09-07",
+      "dividendYield": 0.0317,
+      "stdDev": 0.0495,
+      "beta": 0.9,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "MCSXX",
+          "name": "BlackRock Liquidity MuniCash Instl",
+          "weight": 1.36
+        }
+      ],
+      "sectorWeights": [],
+      "trailingReturns": {
+        "1M": 0.003493,
+        "3M": -0.0076217996,
+        "1Y": 0.0632776,
+        "3Y": 0.0338957,
+        "5Y": 0.008951601
+      },
+      "assetBreakdown": {
+        "Bond": 100
+      },
+      "overview": "iShares National Muni Bond ETF (MUB) is a bond ETF."
+    },
+    {
+      "ticker": "TIP",
+      "name": "iShares TIPS Bond ETF",
+      "issuer": "iShares",
+      "assetClass": "Bond",
+      "risk": 2,
+      "riskLabel": "Moderately Conservative",
+      "expenseRatio": 0.0018000001,
+      "aum": 15087474688,
+      "inceptionDate": "2003-12-04",
+      "dividendYield": 0.028099999,
+      "stdDev": 0.054,
+      "beta": 0.7,
+      "numberOfHoldings": null,
+      "topHoldings": [],
+      "sectorWeights": [],
+      "trailingReturns": {
+        "1M": 0.0014191,
+        "3M": -0.0010994,
+        "1Y": 0.0465577,
+        "3Y": 0.0383639,
+        "5Y": 0.0105181
+      },
+      "assetBreakdown": {
+        "Bond": 100
+      },
+      "overview": "iShares TIPS Bond ETF (TIP) is a bond ETF."
+    },
+    {
+      "ticker": "SGOV",
+      "name": "iShares 0-3 Month Treasury Bond ETF",
+      "issuer": "iShares",
+      "assetClass": "Bond",
+      "risk": 1,
+      "riskLabel": "Conservative",
+      "expenseRatio": 0.00090000004,
+      "aum": 91903229952,
+      "inceptionDate": "2020-05-26",
+      "dividendYield": 0.039,
+      "stdDev": 0.0042,
+      "beta": null,
+      "numberOfHoldings": null,
+      "topHoldings": [],
+      "sectorWeights": [],
+      "trailingReturns": {
+        "1M": 0.0030154,
+        "3M": 0.0089706,
+        "1Y": 0.0394751,
+        "3Y": 0.0473428,
+        "5Y": 0.0353133
+      },
+      "assetBreakdown": {
+        "Bond": 100
+      },
+      "overview": "iShares 0-3 Month Treasury Bond ETF (SGOV) is a bond ETF."
+    },
+    {
+      "ticker": "BIL",
+      "name": "State Street SPDR Bloomberg 1-3 Month T-Bill ETF",
+      "issuer": "State Street Investment Management",
+      "assetClass": "Bond",
+      "risk": 1,
+      "riskLabel": "Conservative",
+      "expenseRatio": 0.0013529999,
+      "aum": 46117830656,
+      "inceptionDate": "2007-05-25",
+      "dividendYield": 0.039,
+      "stdDev": 0.0036,
+      "beta": null,
+      "numberOfHoldings": null,
+      "topHoldings": [],
+      "sectorWeights": [],
+      "trailingReturns": {
+        "1M": 0.0029741002,
+        "3M": 0.0088077,
+        "1Y": 0.0387268,
+        "3Y": 0.0465107,
+        "5Y": 0.0340274
+      },
+      "assetBreakdown": {
+        "Bond": 100
+      },
+      "overview": "State Street SPDR Bloomberg 1-3 Month T-Bill ETF (BIL) is a bond ETF."
+    },
+    {
+      "ticker": "VNQ",
+      "name": "Vanguard Real Estate Index Fund ETF Shares",
+      "issuer": "Vanguard",
+      "assetClass": "Real Estate",
+      "risk": 4,
+      "riskLabel": "Moderately Aggressive",
+      "expenseRatio": 0.0013,
+      "aum": 69802549248,
+      "inceptionDate": "2004-09-23",
+      "dividendYield": 0.0364,
+      "stdDev": 0.1818,
+      "beta": 1.02,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "VRTPX",
+          "name": "Vanguard Real Estate II Index",
+          "weight": 14.49
+        },
+        {
+          "symbol": "WELL",
+          "name": "Welltower Inc",
+          "weight": 7.65
+        },
+        {
+          "symbol": "PLD",
+          "name": "Prologis Inc",
+          "weight": 7.14
+        },
+        {
+          "symbol": "EQIX",
+          "name": "Equinix Inc",
+          "weight": 5.63
+        },
+        {
+          "symbol": "AMT",
+          "name": "American Tower Corp",
+          "weight": 4.65
+        },
+        {
+          "symbol": "SPG",
+          "name": "Simon Property Group Inc",
+          "weight": 3.56
+        },
+        {
+          "symbol": "DLR",
+          "name": "Digital Realty Trust Inc",
+          "weight": 3.49
+        },
+        {
+          "symbol": "O",
+          "name": "Realty Income Corp",
+          "weight": 3.03
+        },
+        {
+          "symbol": "PSA",
+          "name": "Public Storage",
+          "weight": 2.56
+        },
+        {
+          "symbol": "VTR",
+          "name": "Ventas Inc",
+          "weight": 2.14
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 99.4
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 0.45
+        },
+        {
+          "sector": "Industrials",
+          "weight": 0.02
+        },
+        {
+          "sector": "Energy",
+          "weight": 0.12
+        }
+      ],
+      "trailingReturns": {
+        "1M": -0.0064396,
+        "3M": 0.0105512,
+        "1Y": 0.113081306,
+        "3Y": 0.1050367,
+        "5Y": 0.0298307
+      },
+      "assetBreakdown": {
+        "Real Estate": 100
+      },
+      "overview": "Vanguard Real Estate Index Fund ETF Shares (VNQ) is a real estate ETF."
+    },
+    {
+      "ticker": "SCHH",
+      "name": "Schwab U.S. REIT ETF",
+      "issuer": "Schwab ETFs",
+      "assetClass": "Real Estate",
+      "risk": 4,
+      "riskLabel": "Moderately Aggressive",
+      "expenseRatio": 0.0007,
+      "aum": 9982081024,
+      "inceptionDate": "2011-01-13",
+      "dividendYield": 0.0278,
+      "stdDev": 0.1838,
+      "beta": 1,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "WELL",
+          "name": "Welltower Inc",
+          "weight": 9.6
+        },
+        {
+          "symbol": "PLD",
+          "name": "Prologis Inc",
+          "weight": 8.94
+        },
+        {
+          "symbol": "EQIX",
+          "name": "Equinix Inc",
+          "weight": 4.88
+        },
+        {
+          "symbol": "SPG",
+          "name": "Simon Property Group Inc",
+          "weight": 4.46
+        },
+        {
+          "symbol": "DLR",
+          "name": "Digital Realty Trust Inc",
+          "weight": 4.34
+        },
+        {
+          "symbol": "AMT",
+          "name": "American Tower Corp",
+          "weight": 4.34
+        },
+        {
+          "symbol": "O",
+          "name": "Realty Income Corp",
+          "weight": 3.99
+        },
+        {
+          "symbol": "PSA",
+          "name": "Public Storage",
+          "weight": 3.39
+        },
+        {
+          "symbol": "VTR",
+          "name": "Ventas Inc",
+          "weight": 2.84
+        },
+        {
+          "symbol": "CCI",
+          "name": "Crown Castle Inc",
+          "weight": 2.82
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 100
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.0004268,
+        "3M": 0.022852499,
+        "1Y": 0.1359887,
+        "3Y": 0.1127059,
+        "5Y": 0.038584698
+      },
+      "assetBreakdown": {
+        "Real Estate": 100
+      },
+      "overview": "Schwab U.S. REIT ETF (SCHH) is a real estate ETF."
+    },
+    {
+      "ticker": "IYR",
+      "name": "iShares U.S. Real Estate ETF",
+      "issuer": "iShares",
+      "assetClass": "Real Estate",
+      "risk": 4,
+      "riskLabel": "Moderately Aggressive",
+      "expenseRatio": 0.0038,
+      "aum": 4871619584,
+      "inceptionDate": "2000-06-12",
+      "dividendYield": 0.0222,
+      "stdDev": 0.1794,
+      "beta": 1.01,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "WELL",
+          "name": "Welltower Inc",
+          "weight": 9.69
+        },
+        {
+          "symbol": "PLD",
+          "name": "Prologis Inc",
+          "weight": 9.34
+        },
+        {
+          "symbol": "EQIX",
+          "name": "Equinix Inc",
+          "weight": 4.79
+        },
+        {
+          "symbol": "SPG",
+          "name": "Simon Property Group Inc",
+          "weight": 4.72
+        },
+        {
+          "symbol": "DLR",
+          "name": "Digital Realty Trust Inc",
+          "weight": 4.58
+        },
+        {
+          "symbol": "AMT",
+          "name": "American Tower Corp",
+          "weight": 4.46
+        },
+        {
+          "symbol": "O",
+          "name": "Realty Income Corp",
+          "weight": 4.13
+        },
+        {
+          "symbol": "PSA",
+          "name": "Public Storage",
+          "weight": 3.58
+        },
+        {
+          "symbol": "VTR",
+          "name": "Ventas Inc",
+          "weight": 2.99
+        },
+        {
+          "symbol": "CCI",
+          "name": "Crown Castle Inc",
+          "weight": 2.97
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 99.42
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 0.58
+        }
+      ],
+      "trailingReturns": {
+        "1M": -0.0115186,
+        "3M": 0.0041455003,
+        "1Y": 0.09761561,
+        "3Y": 0.100289494,
+        "5Y": 0.0284873
+      },
+      "assetBreakdown": {
+        "Real Estate": 100
+      },
+      "overview": "iShares U.S. Real Estate ETF (IYR) is a real estate ETF."
+    },
+    {
+      "ticker": "GLD",
+      "name": "SPDR Gold Shares",
+      "issuer": "State Street Investment Management",
+      "assetClass": "Commodity",
+      "risk": 3,
+      "riskLabel": "Moderate",
+      "expenseRatio": 0.004,
+      "aum": 150367518720,
+      "inceptionDate": "2004-11-18",
+      "dividendYield": 0,
+      "stdDev": 0.1489,
+      "beta": 0.16,
+      "numberOfHoldings": null,
+      "topHoldings": [],
+      "sectorWeights": [],
+      "trailingReturns": {
+        "1M": -0.0144894,
+        "3M": -0.1303932,
+        "1Y": 0.3816372,
+        "3Y": 0.31755608,
+        "5Y": 0.18594
+      },
+      "assetBreakdown": {
+        "Commodity": 100
+      },
+      "overview": "SPDR Gold Shares (GLD) is a commodity ETF."
+    },
+    {
+      "ticker": "SLV",
+      "name": "iShares Silver Trust",
+      "issuer": "iShares",
+      "assetClass": "Commodity",
+      "risk": 4,
+      "riskLabel": "Moderately Aggressive",
+      "expenseRatio": 0.005,
+      "aum": 36822409216,
+      "inceptionDate": "2006-04-21",
+      "dividendYield": 0,
+      "stdDev": 0.2938,
+      "beta": 0.88,
+      "numberOfHoldings": null,
+      "topHoldings": [],
+      "sectorWeights": [],
+      "trailingReturns": {
+        "1M": 0.0299677,
+        "3M": -0.15878311,
+        "1Y": 1.2798907,
+        "3Y": 0.4753085,
+        "5Y": 0.2175252
+      },
+      "assetBreakdown": {
+        "Commodity": 100
+      },
+      "overview": "iShares Silver Trust (SLV) is a commodity ETF."
+    },
+    {
+      "ticker": "IAU",
+      "name": "iShares Gold Trust",
+      "issuer": "iShares",
+      "assetClass": "Commodity",
+      "risk": 3,
+      "riskLabel": "Moderate",
+      "expenseRatio": 0.0025,
+      "aum": 69916966912,
+      "inceptionDate": "2005-01-21",
+      "dividendYield": 0,
+      "stdDev": 0.1485,
+      "beta": 0.16,
+      "numberOfHoldings": null,
+      "topHoldings": [],
+      "sectorWeights": [],
+      "trailingReturns": {
+        "1M": -0.0143792,
+        "3M": -0.1300628,
+        "1Y": 0.3835918,
+        "3Y": 0.31945628,
+        "5Y": 0.1876769
+      },
+      "assetBreakdown": {
+        "Commodity": 100
+      },
+      "overview": "iShares Gold Trust (IAU) is a commodity ETF."
+    },
+    {
+      "ticker": "AOR",
+      "name": "iShares Core 60/40 Balanced Allocation ETF",
+      "issuer": "iShares",
+      "assetClass": "Multi-Asset",
+      "risk": 3,
+      "riskLabel": "Moderate",
+      "expenseRatio": 0.0015,
+      "aum": 3646074880,
+      "inceptionDate": "2008-11-04",
+      "dividendYield": 0.0247,
+      "stdDev": 0.1006,
+      "beta": 0.93,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "IVV",
+          "name": "iShares Core S&P 500 ETF",
+          "weight": 34.68
+        },
+        {
+          "symbol": "IUSB",
+          "name": "iShares Core Universal USD Bond ETF",
+          "weight": 32.66
+        },
+        {
+          "symbol": "IDEV",
+          "name": "iShares Core MSCI Intl Dev Mkts ETF",
+          "weight": 17.06
+        },
+        {
+          "symbol": "IEMG",
+          "name": "iShares Core MSCI Emerging Markets ETF",
+          "weight": 6.86
+        },
+        {
+          "symbol": "IAGG",
+          "name": "iShares Core International Aggt Bd ETF",
+          "weight": 5.84
+        },
+        {
+          "symbol": "IJH",
+          "name": "iShares Core S&P Mid-Cap ETF",
+          "weight": 1.91
+        },
+        {
+          "symbol": "IJR",
+          "name": "iShares Core S&P Small-Cap ETF",
+          "weight": 0.91
+        },
+        {
+          "symbol": "XTSLA",
+          "name": "BlackRock Cash Funds Treasury SL Agency",
+          "weight": 0.1
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 2.31
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 9.32
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 4.14
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 4.72
+        },
+        {
+          "sector": "Technology",
+          "weight": 30.12
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 8.05
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 15.44
+        },
+        {
+          "sector": "Utilities",
+          "weight": 2.49
+        },
+        {
+          "sector": "Industrials",
+          "weight": 11.59
+        },
+        {
+          "sector": "Energy",
+          "weight": 3.91
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 7.91
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.0279058,
+        "3M": 0.0375993,
+        "1Y": 0.20082979,
+        "3Y": 0.1484109,
+        "5Y": 0.0712898
+      },
+      "assetBreakdown": {
+        "Multi-Asset": 100
+      },
+      "overview": "iShares Core 60/40 Balanced Allocation ETF (AOR) is a multi-asset ETF."
+    },
+    {
+      "ticker": "AOA",
+      "name": "iShares Core 80/20 Aggressive Allocation ETF",
+      "issuer": "iShares",
+      "assetClass": "Multi-Asset",
+      "risk": 3,
+      "riskLabel": "Moderate",
+      "expenseRatio": 0.0015,
+      "aum": 3172655872,
+      "inceptionDate": "2008-11-04",
+      "dividendYield": 0.020499999,
+      "stdDev": 0.1237,
+      "beta": 1.1,
+      "numberOfHoldings": null,
+      "topHoldings": [
+        {
+          "symbol": "IVV",
+          "name": "iShares Core S&P 500 ETF",
+          "weight": 45.65
+        },
+        {
+          "symbol": "IDEV",
+          "name": "iShares Core MSCI Intl Dev Mkts ETF",
+          "weight": 22.45
+        },
+        {
+          "symbol": "IUSB",
+          "name": "iShares Core Universal USD Bond ETF",
+          "weight": 16.12
+        },
+        {
+          "symbol": "IEMG",
+          "name": "iShares Core MSCI Emerging Markets ETF",
+          "weight": 9.03
+        },
+        {
+          "symbol": "IAGG",
+          "name": "iShares Core International Aggt Bd ETF",
+          "weight": 2.88
+        },
+        {
+          "symbol": "IJH",
+          "name": "iShares Core S&P Mid-Cap ETF",
+          "weight": 2.51
+        },
+        {
+          "symbol": "IJR",
+          "name": "iShares Core S&P Small-Cap ETF",
+          "weight": 1.19
+        },
+        {
+          "symbol": "XTSLA",
+          "name": "BlackRock Cash Funds Treasury SL Agency",
+          "weight": 0.16
+        }
+      ],
+      "sectorWeights": [
+        {
+          "sector": "Real Estate",
+          "weight": 2.31
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "weight": 9.32
+        },
+        {
+          "sector": "Basic Materials",
+          "weight": 4.14
+        },
+        {
+          "sector": "Consumer Defensive",
+          "weight": 4.72
+        },
+        {
+          "sector": "Technology",
+          "weight": 30.12
+        },
+        {
+          "sector": "Communication Services",
+          "weight": 8.05
+        },
+        {
+          "sector": "Financial Services",
+          "weight": 15.44
+        },
+        {
+          "sector": "Utilities",
+          "weight": 2.49
+        },
+        {
+          "sector": "Industrials",
+          "weight": 11.59
+        },
+        {
+          "sector": "Energy",
+          "weight": 3.91
+        },
+        {
+          "sector": "Healthcare",
+          "weight": 7.91
+        }
+      ],
+      "trailingReturns": {
+        "1M": 0.0359851,
+        "3M": 0.0536202,
+        "1Y": 0.2527247,
+        "3Y": 0.18363011,
+        "5Y": 0.092943296
+      },
+      "assetBreakdown": {
+        "Multi-Asset": 100
+      },
+      "overview": "iShares Core 80/20 Aggressive Allocation ETF (AOA) is a multi-asset ETF."
+    }
+  ]
+}

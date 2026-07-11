@@ -1,0 +1,107 @@
+/* ResultsList — scrollable table of ETF results */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  flex: 1;
+}
+
+.wrapper {
+  overflow-x: auto;
+  flex: 1;
+}
+
+.table {
+  table-layout: fixed;
+  min-width: 900px;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.table thead {
+  position: sticky;
+  top: 0;
+  z-index: var(--z-sticky);
+}
+
+.table th {
+  font-family: var(--font-display);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-muted);
+  cursor: pointer;
+  user-select: none;
+  padding: var(--space-2) var(--space-3);
+  background-color: var(--color-bg);
+  border-bottom: 2px solid var(--color-border);
+  white-space: nowrap;
+  transition: color var(--duration-fast) ease;
+}
+
+.table th:hover {
+  color: var(--color-ink);
+}
+
+.stickyCorner {
+  position: sticky;
+  left: 0;
+  z-index: calc(var(--z-sticky) + 2);
+  background-color: var(--color-bg);
+}
+
+.activeSort {
+  color: var(--color-primary);
+}
+
+.sortArrow {
+  font-size: 0.625rem;
+  opacity: 0.6;
+}
+
+.activeSort .sortArrow {
+  opacity: 1;
+}
+
+.statusCell {
+  padding: var(--space-8) var(--space-4);
+  text-align: center;
+  color: var(--color-muted);
+  font-size: 0.875rem;
+}
+
+.hintCell {
+  padding: var(--space-2) var(--space-4);
+  font-size: 0.75rem;
+  color: var(--color-muted);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.count {
+  padding: var(--space-2) var(--space-4);
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 0.75rem;
+  color: var(--color-muted);
+  border-top: 1px solid var(--color-border);
+}
+
+/* Column widths */
+.colTicker { width: 5.5rem; }
+.colName { width: 14rem; }
+.colNum { width: 5.5rem; }
+.colSpark { width: 5rem; }
+.colAdd { width: 5rem; }
+
+/* Row fade-in */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.table tbody tr {
+  animation: fadeIn 0.2s ease both;
+}

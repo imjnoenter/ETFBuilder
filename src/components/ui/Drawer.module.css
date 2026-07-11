@@ -1,0 +1,94 @@
+/* Drawer — right slide-over panel */
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background-color: var(--color-overlay);
+  z-index: var(--z-drawer-backdrop);
+  cursor: pointer;
+}
+
+/* motion/react handles transform + AnimatePresence for enter/exit */
+.drawerMotion {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: min(480px, 90vw);
+  background-color: var(--color-bg);
+  box-shadow: var(--shadow-drawer);
+  z-index: var(--z-drawer);
+  overflow-y: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-4) var(--space-6);
+  border-bottom: 1px solid var(--color-border);
+  position: sticky;
+  top: 0;
+  background-color: var(--color-bg);
+  z-index: 1;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: 1.125rem;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
+}
+
+.close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-md);
+  font-size: 1.25rem;
+  color: var(--color-muted);
+  cursor: pointer;
+  border: none;
+  background: none;
+  flex-shrink: 0;
+  transition: background-color var(--duration-fast) ease;
+}
+
+.close:hover {
+  background-color: var(--color-surface);
+  color: var(--color-ink);
+}
+
+.close:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+.body {
+  padding: var(--space-6);
+}
+
+/* ── Mobile: near-full-screen sheet ── */
+@media (max-width: 768px) {
+  .drawerMotion {
+    width: 100vw;
+    max-width: 100vw;
+    border-radius: 0;
+  }
+
+  .header {
+    padding: var(--space-3) var(--space-4);
+  }
+
+  .body {
+    padding: var(--space-4);
+  }
+}
+
+/* Reduced motion: global.css handles transition-duration:0.01ms,
+   and motion/react respects prefers-reduced-motion natively. */

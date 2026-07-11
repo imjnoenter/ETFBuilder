@@ -1,0 +1,111 @@
+/* EtfRow — single ETF row in scrollable results table */
+
+.row {
+  cursor: pointer;
+  transition: background-color var(--duration-fast) ease;
+}
+
+.row:hover td {
+  background-color: var(--color-surface);
+}
+
+.row:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: -2px;
+}
+
+.row td {
+  font-size: 0.8125rem;
+  color: var(--color-ink);
+  padding: var(--space-2) var(--space-3);
+  white-space: nowrap;
+  border-bottom: 1px solid var(--color-border);
+  background-color: var(--color-bg);
+}
+
+.stickyCol {
+  position: sticky;
+  left: 0;
+  z-index: calc(var(--z-sticky) - 1);
+  background-color: var(--color-bg);
+}
+
+.row:hover .stickyCol {
+  background-color: var(--color-surface);
+}
+
+.ticker {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--color-ink);
+}
+
+.name {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 14rem;
+  font-size: 0.8125rem;
+}
+
+.assetClass {
+  font-size: 0.75rem;
+  color: var(--color-muted);
+}
+
+.riskCell {
+  /* container for RiskMeter */
+}
+
+.num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 0.8125rem;
+  text-align: right;
+}
+
+.returnCell {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 0.8125rem;
+  text-align: right;
+  color: var(--color-ink);
+}
+
+.returnCell[data-sign="pos"] {
+  color: var(--color-success);
+}
+
+.returnCell[data-sign="neg"] {
+  color: var(--color-danger);
+}
+
+.sparkCell {
+  text-align: center;
+}
+
+.addCell {
+  text-align: right;
+}
+
+.added {
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--color-muted);
+  padding: var(--space-1) var(--space-2);
+}
+
+.stubRow td {
+  opacity: 0.65;
+}
+
+.hydrating {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--color-muted);
+  padding: var(--space-1) var(--space-2);
+}

@@ -1,0 +1,46 @@
+/* RiskMeter — 1-5 risk band display with label + shape (not color-only) */
+
+.container {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.dots {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--color-border);
+  transition: background-color var(--duration-fast) ease,
+              transform var(--duration-fast) ease;
+}
+
+/* Filled dots: use crimson primary, grow slightly for higher risk */
+.filled {
+  background-color: var(--color-primary);
+}
+
+/* Higher risk = slightly larger dots for shape differentiation (not color-only) */
+.filled:nth-child(4) {
+  width: 9px;
+  height: 9px;
+}
+
+.filled:nth-child(5) {
+  width: 10px;
+  height: 10px;
+}
+
+.label {
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--color-muted);
+  white-space: nowrap;
+}

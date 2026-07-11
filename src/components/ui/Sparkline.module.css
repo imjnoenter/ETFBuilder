@@ -1,0 +1,15 @@
+/* Sparkline — inline SVG mini chart */
+
+.sparkline {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.line {
+  fill: none;
+  stroke: var(--color-primary);
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+}

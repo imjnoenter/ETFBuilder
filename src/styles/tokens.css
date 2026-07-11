@@ -1,0 +1,110 @@
+:root {
+  /* ── Primary: Warm Crimson ── */
+  --color-primary: oklch(0.56 0.20 29);
+  --color-primary-hover: oklch(0.50 0.22 29);
+  --color-primary-active: oklch(0.46 0.22 29);
+  --color-primary-subtle: oklch(0.92 0.04 29);
+
+  /* ── Secondary: Deep Teal ── */
+  --color-secondary: oklch(0.55 0.12 185);
+  --color-secondary-hover: oklch(0.49 0.13 185);
+  --color-secondary-subtle: oklch(0.92 0.03 185);
+
+  /* ── Neutrals ── */
+  --color-bg: oklch(1 0 0);            /* pure white */
+  --color-ink: oklch(0.15 0.01 29);    /* near-black, whisper of brand hue */
+  --color-muted: oklch(0.55 0.01 29);  /* secondary text */
+  --color-surface: oklch(0.97 0.005 29); /* cards, panels */
+  --color-border: oklch(0.88 0.01 29);
+
+  /* ── Semantic: Success / Warning / Danger ── */
+  --color-success: oklch(0.62 0.17 145);
+  --color-warning: oklch(0.75 0.15 85);
+  --color-danger: oklch(0.56 0.20 29);  /* same as primary in this brand */
+
+  /* ── Chart / data-viz colors (tokenized for theme flip) ── */
+  --color-chart-grid: oklch(0.88 0.01 29);
+  --color-chart-tick: oklch(0.55 0.01 29);
+  --color-chart-tooltip-bg: oklch(0.15 0.01 29);
+  --color-chart-tooltip-text: oklch(0.98 0 0);
+  --color-overlay: oklch(0.15 0.01 29 / 0.4);
+  --color-slider-shadow: oklch(0.15 0.01 29 / 0.2);
+
+  /* ── Z-index scale ── */
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-drawer-backdrop: 300;
+  --z-drawer: 400;
+  --z-toast: 500;
+  --z-tooltip: 600;
+
+  /* ── Spacing scale (4px base) ── */
+  --space-1: 0.25rem;   /* 4px */
+  --space-2: 0.5rem;    /* 8px */
+  --space-3: 0.75rem;   /* 12px */
+  --space-4: 1rem;      /* 16px */
+  --space-5: 1.25rem;   /* 20px */
+  --space-6: 1.5rem;    /* 24px */
+  --space-8: 2rem;      /* 32px */
+  --space-10: 2.5rem;   /* 40px */
+  --space-12: 3rem;     /* 48px */
+  --space-16: 4rem;     /* 64px */
+
+  /* ── Radius scale ── */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+
+  /* ── Typography ── */
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  /* ── Shadows (earned depth) ── */
+  --shadow-hover: 0 4px 12px oklch(0.15 0.01 29 / 0.10);
+  --shadow-focus: 0 0 0 3px oklch(0.56 0.20 29 / 0.25);
+  --shadow-drawer: -4px 0 24px oklch(0.15 0.01 29 / 0.15);
+
+  /* ── Transitions ── */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --duration-fast: 150ms;
+  --duration-normal: 250ms;
+  --duration-slow: 400ms;
+}
+
+/* ── Dark theme ── */
+[data-theme="dark"] {
+  --color-primary: oklch(0.68 0.19 29);
+  --color-primary-hover: oklch(0.74 0.20 29);
+  --color-primary-active: oklch(0.62 0.20 29);
+  --color-primary-subtle: oklch(0.25 0.06 29);
+
+  --color-secondary: oklch(0.68 0.11 185);
+  --color-secondary-hover: oklch(0.74 0.12 185);
+  --color-secondary-subtle: oklch(0.25 0.04 185);
+
+  --color-bg: oklch(0.16 0.01 29);
+  --color-ink: oklch(0.93 0.005 29);
+  --color-muted: oklch(0.60 0.01 29);
+  --color-surface: oklch(0.21 0.01 29);
+  --color-border: oklch(0.30 0.01 29);
+
+  --color-success: oklch(0.72 0.16 145);
+  --color-warning: oklch(0.80 0.14 85);
+  --color-danger: oklch(0.68 0.19 29);
+
+  --color-chart-grid: oklch(0.30 0.01 29);
+  --color-chart-tick: oklch(0.60 0.01 29);
+  --color-chart-tooltip-bg: oklch(0.28 0.01 29);
+  --color-chart-tooltip-text: oklch(0.93 0.005 29);
+  --color-overlay: oklch(0.05 0.01 29 / 0.6);
+  --color-slider-shadow: oklch(0.05 0.01 29 / 0.4);
+
+  --shadow-hover: 0 4px 12px oklch(0.05 0.01 29 / 0.30);
+  --shadow-focus: 0 0 0 3px oklch(0.68 0.19 29 / 0.30);
+  --shadow-drawer: -4px 0 24px oklch(0.05 0.01 29 / 0.40);
+
+  color-scheme: dark;
+}

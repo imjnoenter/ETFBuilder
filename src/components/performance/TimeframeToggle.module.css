@@ -1,0 +1,38 @@
+/* TimeframeToggle — 1Y/3Y/5Y/10Y/Max selector */
+
+.container {
+  display: inline-flex;
+  gap: 1px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.option {
+  padding: var(--space-1) var(--space-3);
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--color-muted);
+  background: var(--color-bg);
+  border: none;
+  cursor: pointer;
+  transition: background-color var(--duration-fast) ease,
+              color var(--duration-fast) ease;
+}
+
+.option:hover {
+  color: var(--color-ink);
+  background-color: var(--color-surface);
+}
+
+.active {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.active:hover {
+  background-color: var(--color-primary-hover);
+  color: white;
+}
