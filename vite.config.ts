@@ -66,13 +66,13 @@ function etfApiPlugin(): Plugin {
           try {
             const t = await loadTransport();
             let auth = await getAuth();
-            const batchUrl = `https://query1.finance.yahoo.com/v7/finance/quote?symbols=${symbols.join(',')}&crumb=${auth.crumb}`;
+            const batchUrl = `https://query1.finance.yahoo.com/v7/finance/quote?symbols=${symbols.join(',')}&crumb=${auth!.crumb}`;
             let data: any;
             try {
               data = await t.yahooJson(batchUrl, auth);
             } catch {
               auth = await getAuth(true);
-              const retryUrl = `https://query1.finance.yahoo.com/v7/finance/quote?symbols=${symbols.join(',')}&crumb=${auth.crumb}`;
+              const retryUrl = `https://query1.finance.yahoo.com/v7/finance/quote?symbols=${symbols.join(',')}&crumb=${auth!.crumb}`;
               data = await t.yahooJson(retryUrl, auth);
             }
 
@@ -303,7 +303,10 @@ function etfApiPlugin(): Plugin {
   };
 }
 
-export default defineConfig({
+export default defineConfig(({ command }) => ({
+  // Served from https://imjnoenter.github.io/ETFBuilder/ on GitHub Pages,
+  // but from root during local dev.
+  base: command === 'build' ? '/ETFBuilder/' : '/',
   server: {
     port: 5173,
     strictPort: true,
@@ -325,4 +328,4 @@ export default defineConfig({
       },
     },
   },
-})
+}))

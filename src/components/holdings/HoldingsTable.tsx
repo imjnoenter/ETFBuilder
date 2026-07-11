@@ -115,8 +115,8 @@ export default function HoldingsTable() {
   const sortedRows = useMemo(() => {
     const sorted = [...rows];
     sorted.sort((a, b) => {
-      const aVal = (a as Record<string, unknown>)[sort.key];
-      const bVal = (b as Record<string, unknown>)[sort.key];
+      const aVal = (a as unknown as Record<string, unknown>)[sort.key];
+      const bVal = (b as unknown as Record<string, unknown>)[sort.key];
 
       if (aVal == null && bVal == null) return 0;
       if (aVal == null) return 1;
