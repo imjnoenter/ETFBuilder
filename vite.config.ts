@@ -303,10 +303,7 @@ function etfApiPlugin(): Plugin {
   };
 }
 
-export default defineConfig(({ command }) => ({
-  // Served from https://imjnoenter.github.io/ETFBuilder/ on GitHub Pages,
-  // but from root during local dev.
-  base: command === 'build' ? '/ETFBuilder/' : '/',
+export default defineConfig({
   server: {
     port: 5173,
     strictPort: true,
@@ -328,4 +325,4 @@ export default defineConfig(({ command }) => ({
       },
     },
   },
-}))
+})
