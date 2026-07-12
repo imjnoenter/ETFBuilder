@@ -1,6 +1,6 @@
 import { useEffect, useState, useMemo, lazy, Suspense } from 'react';
 import { dataSource } from '../../data';
-import type { Etf, PricePoint } from '../../data/types';
+import type { Etf, Holding, PricePoint } from '../../data/types';
 import { benchmarkGrowth, type HistoryWindow } from '../../lib/portfolio';
 import { percent, compactAum } from '../../lib/format';
 import { useBuilderStore } from '../../store/builderStore';
@@ -58,6 +58,41 @@ export function ProfileDrawer({ ticker, onClose }: ProfileDrawerProps) {
     load();
     return () => { cancelled = true; };
   }, [ticker]);
+
+  // Live-fetch fresh holdings for the drawer's ETF (may not be in the portfolio,
+  // so useHoldingsCount won't cover it).
+  useEffect(() => {
+    if (!etf) return;
+    if ((etf.topHoldings?.length ?? 0) >= 25) return;
+
+    const controller = new AbortController();
+
+    fetch(`/api/holdings-count?symbols=${encodeURIComponent(etf.ticker)}`, { signal: controller.signal })
+      .then((res) => {
+        if (!res.ok) throw new Error(`Holdings fetch failed: ${res.status}`);
+        return res.json();
+      })
+      .then((data: { results: Record<string, { count: number | null; topHoldings: Holding[] }> }) => {
+        const result = data.results[etf.ticker];
+        if (!result) return;
+        const patch: Record<string, unknown> = {};
+        if (result.count != null) patch.numberOfHoldings = result.count;
+        if (result.topHoldings.length > (etf.topHoldings?.length ?? 0)) {
+          patch.topHoldings = result.topHoldings;
+        }
+        if (Object.keys(patch).length > 0) {
+          setEtf((prev) => (prev ? { ...prev, ...patch } : prev));
+          cacheEtf(etf.ticker, { ...etf, ...patch });
+        }
+      })
+      .catch((err) => {
+        if (err.name !== 'AbortError') {
+          console.warn('Holdings fetch error:', err.message);
+        }
+      });
+
+    return () => controller.abort();
+  }, [etf?.ticker]);
 
   // Performance chart data: this ETF vs S&P 500, growth of $10k
   const perfData = useMemo(() => {

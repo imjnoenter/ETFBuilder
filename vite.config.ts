@@ -186,6 +186,7 @@ function etfApiPlugin(): Plugin {
               }),
             );
             res.statusCode = 200;
+            res.setHeader('Cache-Control', 's-maxage=86400, stale-while-revalidate=86400');
             res.setHeader('Content-Type', 'application/json');
             res.end(JSON.stringify({ results }));
           } catch (err: any) {
