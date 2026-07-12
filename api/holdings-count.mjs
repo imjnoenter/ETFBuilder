@@ -15,6 +15,7 @@ export default async function handler(req, res) {
         results[sym] = await transport.fetchHoldingsData(sym);
       }),
     );
+    res.setHeader('Cache-Control', 's-maxage=86400, stale-while-revalidate=86400');
     res.status(200).json({ results });
   } catch (err) {
     res.status(502).json({ error: 'upstream', message: err?.message || 'Unknown error' });
