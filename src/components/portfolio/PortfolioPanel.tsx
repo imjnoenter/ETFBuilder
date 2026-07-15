@@ -31,7 +31,6 @@ export function PortfolioPanel() {
   const getAllocatedPct = useBuilderStore((s) => s.getAllocatedPct);
   const getRemainingPct = useBuilderStore((s) => s.getRemainingPct);
   const getAssetClassMix = useBuilderStore((s) => s.getAssetClassMix);
-  void etfCache;
   const allocatedPct = getAllocatedPct();
   const remainingPct = getRemainingPct();
   const assetClassMix = getAssetClassMix();
@@ -58,6 +57,7 @@ export function PortfolioPanel() {
     if (allocationMode === 'etf') {
       return positions.map((p, i) => ({
         label: p.ticker,
+        fullLabel: etfCache.get(p.ticker)?.name,
         value: p.weight,
         color: sliceColors[i % sliceColors.length],
       }));
@@ -67,7 +67,7 @@ export function PortfolioPanel() {
       value: m.weight,
       color: sliceColors[i % sliceColors.length],
     }));
-  }, [positions, assetClassMix, allocationMode, sliceColors]);
+  }, [positions, assetClassMix, allocationMode, sliceColors, etfCache]);
 
   if (positions.length === 0) {
     return (
@@ -163,6 +163,7 @@ export function PortfolioPanel() {
         <AllocationDonut
           slices={donutSlices}
           unallocatedPct={remainingPct}
+          showArcLabels
         />
       </div>
 

@@ -1,0 +1,169 @@
+/* ShareCard — fixed dark brand look, independent of app theme */
+
+.card {
+  --color-bg: oklch(0.16 0.01 29);
+  --color-ink: oklch(0.93 0.005 29);
+  --color-muted: oklch(0.60 0.01 29);
+  --color-surface: oklch(0.21 0.01 29);
+  --color-border: oklch(0.30 0.01 29);
+  --color-primary: oklch(0.68 0.19 29);
+  --color-secondary: oklch(0.68 0.11 185);
+  --color-success: oklch(0.72 0.16 145);
+  --color-danger: oklch(0.68 0.19 29);
+
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;
+  padding: var(--space-6);
+  background-color: var(--color-bg);
+  color: var(--color-ink);
+  border-radius: var(--radius-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: var(--color-primary);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.sectionLabel {
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.emptyNote {
+  font-size: 0.8125rem;
+  color: var(--color-muted);
+  padding: var(--space-4) 0;
+}
+
+.unallocatedNote {
+  font-size: 0.75rem;
+  color: var(--color-muted);
+  text-align: center;
+}
+
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-4);
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--color-border);
+}
+
+.holdingsTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.75rem;
+}
+
+.holdingsTable tr {
+  border-bottom: 1px solid var(--color-border);
+}
+
+.holdingsTable tr:last-child {
+  border-bottom: none;
+}
+
+.holdingsTable td {
+  padding: var(--space-2) 0;
+  vertical-align: middle;
+}
+
+.hRank {
+  width: 1.5rem;
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  color: var(--color-muted);
+  text-align: right;
+  padding-right: var(--space-2) !important;
+}
+
+.hDotCell {
+  width: 0.75rem;
+  padding-right: var(--space-2) !important;
+}
+
+.hDot {
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+}
+
+.hSymbol {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-weight: 500;
+  color: var(--color-ink);
+  white-space: nowrap;
+  padding-right: var(--space-3) !important;
+}
+
+.hName {
+  color: var(--color-muted);
+  max-width: 0;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.hWeight {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  color: var(--color-ink);
+  text-align: right;
+  white-space: nowrap;
+  padding-left: var(--space-3) !important;
+}
+
+.metricStat {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.metricLabel {
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--color-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1;
+}
+
+.metricValue {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1;
+  color: var(--color-ink);
+}
+
+.positive {
+  color: var(--color-success);
+}
+
+.negative {
+  color: var(--color-danger);
+}

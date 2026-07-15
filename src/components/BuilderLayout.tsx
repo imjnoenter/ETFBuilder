@@ -7,6 +7,8 @@ import { ScreenerPanel } from './screener/ScreenerPanel';
 import { PortfolioPanel } from './portfolio/PortfolioPanel';
 import { BlendedPanel } from './portfolio/BlendedPanel';
 import { ProfileDrawer } from './profile/ProfileDrawer';
+import { ShareButton } from './share/ShareButton';
+import { ShareDrawer } from './share/ShareDrawer';
 import { ThemeToggle } from './ui/ThemeToggle';
 import styles from './BuilderLayout.module.css';
 
@@ -34,6 +36,7 @@ export function BuilderLayout() {
   const [profileTicker, setProfileTicker] = useState<string | null>(null);
   const [mobileTab, setMobileTab] = useState<MobileTab>('screener');
   const [leftView, setLeftView] = useState<LeftView>('screener');
+  const [shareOpen, setShareOpen] = useState(false);
   const isMobile = useMediaQuery('(max-width: 768px)');
 
   useEffect(() => { initTheme(); }, []);
@@ -79,6 +82,7 @@ export function BuilderLayout() {
     <div className={styles.layout}>
       <header className={styles.header}>
         <h1 className={styles.brand}>ETFbuilder</h1>
+        <ShareButton disabled={positions.length === 0} onClick={() => setShareOpen(true)} />
         <ThemeToggle />
       </header>
 
@@ -154,6 +158,7 @@ export function BuilderLayout() {
       </Suspense>
 
       <ProfileDrawer ticker={profileTicker} onClose={() => setProfileTicker(null)} />
+      <ShareDrawer open={shareOpen} onClose={() => setShareOpen(false)} />
     </div>
   );
 }

@@ -1,0 +1,31 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-md);
+  color: var(--color-muted);
+  cursor: pointer;
+  transition: background-color var(--duration-fast) ease,
+              color var(--duration-fast) ease;
+}
+
+.button:hover:not(:disabled) {
+  background-color: var(--color-surface);
+  color: var(--color-ink);
+}
+
+.button:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+.button:disabled {
+  color: var(--color-border);
+  cursor: not-allowed;
+}
+
+.icon {
+  display: block;
+}

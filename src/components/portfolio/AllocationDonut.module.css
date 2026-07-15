@@ -84,12 +84,45 @@
 .legendLabel {
   font-family: var(--font-display);
   font-weight: 500;
+  max-width: 220px;
+  overflow-wrap: break-word;
+}
+
+.arcLabel {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 11px;
+  font-weight: 500;
+  fill: white;
+  paint-order: stroke;
+  stroke: oklch(0.15 0.01 29 / 0.55);
+  stroke-width: 3px;
+  stroke-linejoin: round;
+}
+
+.arcLabelPct {
+  font-size: 9px;
+  fill-opacity: 0.75;
 }
 
 .legendValue {
   font-family: var(--font-mono);
   font-variant-numeric: tabular-nums;
   color: var(--color-muted);
+}
+
+.leaderLine {
+  stroke: var(--color-muted);
+  stroke-width: 1px;
+  opacity: 0.6;
+}
+
+.leaderLabel {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 10px;
+  font-weight: 500;
+  fill: var(--color-ink);
 }
 
 .tooltip {

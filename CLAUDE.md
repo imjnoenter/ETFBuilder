@@ -37,18 +37,19 @@ Data source is selected by `VITE_DATA_SOURCE` env var: `hybrid` (default), `fixt
 
 ### Vite API Plugin (vite.config.ts)
 
-Four server-side endpoints in a custom Vite plugin, using raw Yahoo Finance REST APIs (not the yahoo-finance2 npm package):
+Five server-side endpoints in a custom Vite plugin, using raw Yahoo Finance REST APIs (not the yahoo-finance2 npm package):
 
 - `GET /api/etf/:ticker` — Full ETF data + price history
 - `GET /api/quotes?symbols=VOO,QQQ` — Batch live quotes (up to 20)
 - `GET /api/stock-sectors?symbols=AAPL,MSFT` — Batch stock sector lookup (up to 20)
 - `GET /api/holdings-count?symbols=SPY,QQQ` — Batch holdings count + top holdings from stockanalysis.com (up to 20)
+- `GET /api/trailing-returns?symbols=VOO,QQQ` — Batch trailing 1M/3M/1Y/3Y/5Y returns from Yahoo's fundPerformance module (up to 20)
 
 Auth (cookie + crumb) is cached at module scope with retry on stale auth. Transport logic lives in `scripts/lib/yahoo-transport.mjs`. The Vite plugin watches this file and auto-invalidates its module cache on change (no restart needed).
 
 ### State (Zustand)
 
-- **`builderStore`**: Portfolio positions, name, portfolioValue, taxRate, savedPortfolios, etfCache, priceCache, quoteCache. Positions, name, value, taxRate, and savedPortfolios persist to localStorage; caches rebuild on mount.
+- **`builderStore`**: Portfolio positions, name, portfolioValue, taxRate, savedPortfolios, etfCache, priceCache, quoteCache, trailingReturnsCache. Positions, name, value, taxRate, and savedPortfolios persist to localStorage; caches rebuild on mount.
 - **`screenerStore`**: Search query, filters, sort, results, loading/hydrating state.
 
 Saved portfolios store `{ name, positions, portfolioValue, taxRate }`. Auto-saves current portfolio before switching.
@@ -90,9 +91,32 @@ All styles use CSS Modules. Tokens in `src/styles/tokens.css`:
 
 All return `"--"` for null/undefined.
 
-## Period Returns (src/lib/returns.ts)
+## Period Returns: Two Sources
 
-`computePeriodReturns(prices)` computes 1M/3M/1Y/3Y/5Y returns from monthly `PricePoint[]` data in the price cache. Used by screener rows, holdings detail table, and blended 1Y return calculation.
+There are two ways period returns get computed, and most consumers prefer the live one but fall back to the computed one:
+
+1. **Computed** — `computePeriodReturns(prices)` in `src/lib/returns.ts` derives 1M/3M/1Y/3Y/5Y from monthly `PricePoint[]` data already sitting in `priceCache`. No extra network call. Used by the screener rows (`ResultsList`), since screener results churn too fast to justify a live fetch per row.
+2. **Live trailing returns** — `useTrailingReturns()` (`src/lib/useTrailingReturns.ts`) fetches `/api/trailing-returns` for the current portfolio's positions, backed by Yahoo's fundPerformance module (more accurate than price-derived math, especially for annualized 3Y/5Y). Cached 24h in both `trailingReturnsCache` (Zustand) and localStorage (`etfbuilder-trailing-returns`). `HoldingsTable` and `builderStore`'s `getBlended1YReturn()` use `trailingReturnsCache.get(ticker) ?? computePeriodReturns(prices)` — live data when available, computed as a same-shape fallback while the fetch is in flight or if it fails.
+
+When adding a new returns consumer, default to the live+fallback pattern unless the call site is high-frequency (like screener rows), where computed-only is intentional.
+
+## AllocationDonut (src/components/portfolio/AllocationDonut.tsx)
+
+Shared donut chart used by both `PortfolioPanel` (live portfolio builder, ETF-ticker or asset-class mode via `AllocationModeToggle`) and `ShareCard` (export card, ETF donut + stock look-through donut). Beyond `slices`/`unallocatedPct`, it takes:
+
+- `theme?: 'light' | 'dark'` — overrides the app-wide theme for just this instance (used by `ShareCard` to force a fixed dark look regardless of the viewer's theme).
+- `centerLabel?: { value, sub }` — overrides the default "{pct}% Allocated" center text (e.g. `ShareCard`'s stock donut shows a stock count instead, since that donut is rescaled to always fill 100% and a percentage there would be misleading).
+- `showArcLabels?: boolean` — renders each slice's `label` directly on its arc, auto-skipped when the arc is too thin to fit the text (estimated from text length vs. arc length at the ring's midpoint). Used by `PortfolioPanel` and `ShareCard`'s ETF donut.
+- `leaderLabels?: boolean` — like `showArcLabels`, but slices too thin for an inline label get a leader-line callout (line + color dot + truncated text) in a fixed column outside the ring instead of being dropped; slices below a minimum share still get no on-graph label at all (legend only), to avoid a wall of callouts. Widens the SVG canvas to fit the label columns — used only by `ShareCard`'s stock donut, which can have up to 20 slices.
+- `slices[].fullLabel?: string` — shown truncated inline next to the slice label in the legend ("VOO — Vanguard S&P 500 ETF"), full text available via the legend item's `title` tooltip.
+
+Passing `unallocatedPct={0}` makes the pie auto-normalize to fill 100% using only the given slices (d3's `pie()` generator sizes arcs by each slice's share of the *provided* total, not a fixed 100) — this is how the stock donut fills the ring even though the underlying blended weights only cover a fraction of the portfolio.
+
+## Share / Export (src/components/share/)
+
+`ShareButton` (header) opens `ShareDrawer`, which renders `ShareCard` — a purpose-built, always-dark summary card (independent of the app's current theme) — and captures it to PNG via `modern-screenshot`'s `domToPng`/`domToBlob` at 2x scale. Actions: Download, Copy to clipboard, Web Share API (each feature-detected; unsupported ones are hidden rather than disabled).
+
+`ShareDrawer` waits for two things before rendering the card: all positions hydrated in `etfCache`, and `holdingsLoading` to settle (capped at 8s, then renders with whatever resolved). The card shows the ETF allocation donut plus a look-through stock donut built by `blendedStockHoldings()` (`src/lib/stockHoldings.ts`), which blends each position's `topHoldings` weighted by position weight — the same aggregation `TopHoldingsTable` uses, extracted so both stay in sync. The stock donut always fills 100% (see `AllocationDonut` above) with a plain-text "{pct}% of portfolio unallocated" caption below it instead of a grey ring gap, since with up to 20 stocks a dedicated wedge would be illegible.
 
 ## ETF Data Shape
 
